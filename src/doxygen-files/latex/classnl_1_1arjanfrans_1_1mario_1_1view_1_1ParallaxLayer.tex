@@ -1,0 +1,124 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}{}\section{nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}\index{nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer@{nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer}}
+
+
+The class meant to retrieve a layer from a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground}{Parallax\+Background}.  
+
+
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_aec238fa2067afb4e286f8db8b616aeac}{Parallax\+Layer} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, String layer\+\_\+name, float p\+RatioX, float p\+RatioY)
+\begin{DoxyCompactList}\small\item\em Constructor method for \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}{Parallax\+Layer}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a1d299e94c27d8fd0b37d37110f52ff60}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a1d299e94c27d8fd0b37d37110f52ff60}} 
+Array\+Map$<$ String, Texture $>$ {\bfseries get\+Layer\+Textures} ()
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_ad211dbd4512b3560a25c2d09f95fa260}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_ad211dbd4512b3560a25c2d09f95fa260}} 
+Array$<$ Map\+Object $>$ {\bfseries get\+Layer\+Objects} ()
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a0d7584aed429cdc488e32ec4eae94df1}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a0d7584aed429cdc488e32ec4eae94df1}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a0d7584aed429cdc488e32ec4eae94df1}{dispose} ()
+\begin{DoxyCompactList}\small\item\em A method meant to dispose of all layer textures of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}{Parallax\+Layer}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a12e98853c0a5eaadc896bc50c8bd84dc}{moveX} (float p\+Delta)
+\begin{DoxyCompactList}\small\item\em A method meant to move this layer in the x direction, based on a constant value. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a961341849470a053f57c1a08000cdf69}{moveY} (float p\+Delta)
+\begin{DoxyCompactList}\small\item\em A method meant to move this layer in the y direction, based on a constant value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_afbeccae3b9bf53a6ae696b185100e0b8}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_afbeccae3b9bf53a6ae696b185100e0b8}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_afbeccae3b9bf53a6ae696b185100e0b8}{load\+Objects} ()
+\begin{DoxyCompactList}\small\item\em A method meant to load the objects from the tmx file, convert them into textures and put them on the layer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_ab8a033d010684f7e59398046887ca726}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_ab8a033d010684f7e59398046887ca726}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} {\bfseries world}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a8199fd99969e10e6339ac95896c44e77}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a8199fd99969e10e6339ac95896c44e77}} 
+Array$<$ Map\+Object $>$ {\bfseries layer\+\_\+objects}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a738382929b532aa9d8aeb39b70b3e3a6}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a738382929b532aa9d8aeb39b70b3e3a6}} 
+Array\+Map$<$ String, Texture $>$ {\bfseries layer\+\_\+textures}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_acb8fb1a4b8028154adc4622df84bf552}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_acb8fb1a4b8028154adc4622df84bf552}} 
+String {\bfseries layer\+\_\+name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The class meant to retrieve a layer from a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground}{Parallax\+Background}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_aec238fa2067afb4e286f8db8b616aeac}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_aec238fa2067afb4e286f8db8b616aeac}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}!Parallax\+Layer@{Parallax\+Layer}}
+\index{Parallax\+Layer@{Parallax\+Layer}!nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}}
+\subsubsection{\texorpdfstring{Parallax\+Layer()}{ParallaxLayer()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer.\+Parallax\+Layer (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{String}]{layer\+\_\+name,  }\item[{float}]{p\+RatioX,  }\item[{float}]{p\+RatioY }\end{DoxyParamCaption})}
+
+
+
+Constructor method for \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}{Parallax\+Layer}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em world} & -\/ The world that the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer}{Parallax\+Layer} exists in \\
+\hline
+{\em layer\+\_\+name} & -\/ a string representing the name of the layer \\
+\hline
+{\em p\+RatioX} & -\/ a float representing how much the layer will move in the x direction if the background is moved. \\
+\hline
+{\em p\+RatioY} & -\/ a float representing how much the layer will move in the y direction if the background is moved. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a12e98853c0a5eaadc896bc50c8bd84dc}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a12e98853c0a5eaadc896bc50c8bd84dc}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}!moveX@{moveX}}
+\index{moveX@{moveX}!nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}}
+\subsubsection{\texorpdfstring{move\+X()}{moveX()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer.\+moveX (\begin{DoxyParamCaption}\item[{float}]{p\+Delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A method meant to move this layer in the x direction, based on a constant value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Delta} & -\/ a float representing the shift in the layer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a961341849470a053f57c1a08000cdf69}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer_a961341849470a053f57c1a08000cdf69}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}!moveY@{moveY}}
+\index{moveY@{moveY}!nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer@{nl\+::arjanfrans\+::mario\+::view\+::\+Parallax\+Layer}}
+\subsubsection{\texorpdfstring{move\+Y()}{moveY()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+view.\+Parallax\+Layer.\+moveY (\begin{DoxyParamCaption}\item[{float}]{p\+Delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A method meant to move this layer in the y direction, based on a constant value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Delta} & -\/ a float representing the shift in the layer. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/view/Parallax\+Layer.\+java\end{DoxyCompactItemize}

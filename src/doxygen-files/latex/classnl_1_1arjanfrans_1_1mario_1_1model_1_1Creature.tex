@@ -1,0 +1,80 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Creature Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature}\index{nl.\+arjanfrans.\+mario.\+model.\+Creature@{nl.\+arjanfrans.\+mario.\+model.\+Creature}}
+
+
+This class is the class model to represent any moving actor that is interactive, and not \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Creature\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Creature\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ab8c69d6a20f23355757ee4275a607086}{Creature} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float positionX, float positionY, float f)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_af90d849667c2f64b1b578f27e575f444}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_af90d849667c2f64b1b578f27e575f444}} 
+abstract Animation \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_af90d849667c2f64b1b578f27e575f444}{get\+Animation} ()
+\begin{DoxyCompactList}\small\item\em Gets the animation of the creature. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_acde9170546655c54aa46b98f35845845}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_acde9170546655c54aa46b98f35845845}} 
+abstract void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_acde9170546655c54aa46b98f35845845}{die\+By\+Falling} ()
+\begin{DoxyCompactList}\small\item\em Eliminates the creature when it dies by falling. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ac8a2e1db675c8efb0723e5750de80c41}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ac8a2e1db675c8efb0723e5750de80c41}} 
+abstract void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ac8a2e1db675c8efb0723e5750de80c41}{collision\+X\+Action} ()
+\begin{DoxyCompactList}\small\item\em Describes behaviour when creature interacts with object in the X direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class is the class model to represent any moving actor that is interactive, and not \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ab8c69d6a20f23355757ee4275a607086}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature_ab8c69d6a20f23355757ee4275a607086}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Creature@{nl\+::arjanfrans\+::mario\+::model\+::\+Creature}!Creature@{Creature}}
+\index{Creature@{Creature}!nl\+::arjanfrans\+::mario\+::model\+::\+Creature@{nl\+::arjanfrans\+::mario\+::model\+::\+Creature}}
+\subsubsection{\texorpdfstring{Creature()}{Creature()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Creature.\+Creature (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{positionX,  }\item[{float}]{positionY,  }\item[{float}]{f }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes and instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature}{Creature} 
+\begin{DoxyParams}{Parameters}
+{\em world} & \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} object which defines which game instance the creature exists in \\
+\hline
+{\em positionX} & The initial x coordinate for the creature \\
+\hline
+{\em positionY} & The initial y coordinate for the creature \\
+\hline
+{\em f} & Height of the creature \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature}{Creature} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/\hyperlink{Creature_8java}{Creature.\+java}\end{DoxyCompactItemize}

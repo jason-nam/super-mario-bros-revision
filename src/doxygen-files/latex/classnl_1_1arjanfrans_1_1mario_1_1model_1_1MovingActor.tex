@@ -1,0 +1,454 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}\index{nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor@{nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor}}
+
+
+Represents a moving actor in the game.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Direction}
+\item 
+enum {\bfseries State}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a56800b4b8e8457bb2e0f1a4ad38b6576}{Moving\+Actor} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float x, float y, float max\+\_\+velocity)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0abaf6ff6ce1a5237a268f29e433a5ed}{move} (Direction dir)
+\begin{DoxyCompactList}\small\item\em This method moves the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} in specific directions. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4afede59283c8dec6fcbf8ee31244320}{get\+Max\+\_\+velocity} ()
+\begin{DoxyCompactList}\small\item\em This method gets the value of the max\+\_\+velocity instance variable. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_aad83e64b051035aeec7b60f32a44ea6f}{get\+Jump\+\_\+velocity} ()
+\begin{DoxyCompactList}\small\item\em This method gets the value of the jump\+\_\+velocity instance variable. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_afad55ab6f56af85122985d51001e12fd}{get\+Damping} ()
+\begin{DoxyCompactList}\small\item\em This method gets the daming constant in the damping instance variable. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a2f5be4a9802efe50a98368729ab46472}{get\+State\+Time} ()
+\begin{DoxyCompactList}\small\item\em This method gets the state\+Time constant in the state\+Time instance variable. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4fb6d4e3924b419bf9fb360cf2598672}{is\+Faces\+Right} ()
+\begin{DoxyCompactList}\small\item\em This method gets the boolean value of the faces\+Right instance variable. \end{DoxyCompactList}\item 
+Vector2 \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0ab43947ad415abb6be30ede3695b712}{get\+Velocity} ()
+\begin{DoxyCompactList}\small\item\em This method gets the Vector2 object in the velocity instance variable. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a43e403fe46a10dbac42c1f7800146a9c}{is\+Moving} ()
+\begin{DoxyCompactList}\small\item\em This method gets the boolean value of the moving instance variable. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_af9e155f3ced19b73b253ce8f2d8f044d}{set\+Moving} (boolean moving)
+\begin{DoxyCompactList}\small\item\em This method sets the boolean value of the moving instance variable. \end{DoxyCompactList}\item 
+State \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a40606a6b3bdc2afe43cfba764b00af4c}{get\+State} ()
+\begin{DoxyCompactList}\small\item\em This method gets the state of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a64188e7edb074bbf9e193a8ec5fa2ec2}{set\+State} (State state)
+\begin{DoxyCompactList}\small\item\em This method sets the state of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a331dd9271c5023d07f1840b029e703d9}{set\+Dead} (boolean dead)
+\begin{DoxyCompactList}\small\item\em This method sets the boolean value of the dead instance variable. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a5a5575f015d9ba97fcf344ae203f893c}{is\+Dead} ()
+\begin{DoxyCompactList}\small\item\em This method gets the boolean value of the dead instance variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a87133b03c2a4fd28db5d0b59f939a592}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a87133b03c2a4fd28db5d0b59f939a592}} 
+Rectangle {\bfseries rectangle} ()
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab728cb879f42b81b171fda3ecb85260b}{apply\+Physics} (Rectangle rect)
+\begin{DoxyCompactList}\small\item\em This method applies the laws of motion to a rectangle. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a58d1642a39909c7f838dd84b2fb6c506}{collisionX} (Rectangle rect)
+\begin{DoxyCompactList}\small\item\em This method checks if the rectangle collides with anything in the x direction. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a782d932e0ff4b3b99de0542892d671c2}{check\+Tiles} (boolean checkX)
+\begin{DoxyCompactList}\small\item\em This method checks for tiles in the x and y directions. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_acd9c3910d87bd94574b28599b7bc89db}{collisionY} (Rectangle rect)
+\begin{DoxyCompactList}\small\item\em This method checks if the rectangle collides with anything in the y direction. \end{DoxyCompactList}\item 
+Array$<$ Rectangle $>$ \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a1aaf050e3c58bc9c523ccc6cefeabaf4}{get\+Tiles} (boolean isX)
+\begin{DoxyCompactList}\small\item\em This method gets the tiles in the x and y directions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a90b5fa37f912521b7f05f23765c5edbc}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a90b5fa37f912521b7f05f23765c5edbc}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a90b5fa37f912521b7f05f23765c5edbc}{hit\+Ground} ()
+\begin{DoxyCompactList}\small\item\em This method sets the grounded boolean instance variable to true. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab7c880f8d5c44d9818ee0830357a06e5}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab7c880f8d5c44d9818ee0830357a06e5}} 
+abstract void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab7c880f8d5c44d9818ee0830357a06e5}{die\+By\+Falling} ()
+\begin{DoxyCompactList}\small\item\em This method is an abstract method handled by the inherited class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ac227d16626526c50745efbe666594797}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ac227d16626526c50745efbe666594797}} 
+abstract void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ac227d16626526c50745efbe666594797}{collision\+X\+Action} ()
+\begin{DoxyCompactList}\small\item\em This method is an abstract method handled by the inherited class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_aaecf03f3a0032c8572936fcc3da9fe70}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_aaecf03f3a0032c8572936fcc3da9fe70}} 
+float {\bfseries max\+\_\+velocity}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a5c5b86ce3a1d5e16719c902c1dc1b1eb}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a5c5b86ce3a1d5e16719c902c1dc1b1eb}} 
+float {\bfseries jump\+\_\+velocity} = 40f
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ae05d084bb2ae4a272bf4c6de629c606a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ae05d084bb2ae4a272bf4c6de629c606a}} 
+float {\bfseries damping} = 0.\+87f
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a70c7de439eef419becf4388aed28fc3b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a70c7de439eef419becf4388aed28fc3b}} 
+Vector2 {\bfseries position}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a7173e8dac5804840f740fe9d357305ae}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a7173e8dac5804840f740fe9d357305ae}} 
+Vector2 {\bfseries velocity}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a698927fb2dd6ff4afe43561909052535}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a698927fb2dd6ff4afe43561909052535}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} {\bfseries world}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a31ad4b98d2c174817d6756e84a7fb09d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a31ad4b98d2c174817d6756e84a7fb09d}} 
+boolean {\bfseries dead}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0b6eb26ca7abec4bdc971bc842470ea0}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0b6eb26ca7abec4bdc971bc842470ea0}} 
+boolean {\bfseries moving}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a21abe2ecfca8b85ae022eee104a8ab22}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a21abe2ecfca8b85ae022eee104a8ab22}} 
+State {\bfseries state} = State.\+Standing
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a33055aba77dd7e121bcf69a2f320a531}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a33055aba77dd7e121bcf69a2f320a531}} 
+float {\bfseries state\+Time} = 0
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_afad448059900c30a0ad2ec4cfe59c097}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_afad448059900c30a0ad2ec4cfe59c097}} 
+int {\bfseries level}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a44a86824a451864ebb36565ddde0baaa}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a44a86824a451864ebb36565ddde0baaa}} 
+boolean {\bfseries faces\+Right} = true
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a274b212ed9a2c36f600ebb3a747582a4}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a274b212ed9a2c36f600ebb3a747582a4}} 
+Direction {\bfseries direction}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a152afcb89273fa62925ea2a6c1c10515}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a152afcb89273fa62925ea2a6c1c10515}} 
+boolean {\bfseries grounded} = false
+\item 
+Pool$<$ Rectangle $>$ {\bfseries rect\+Pool}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a moving actor in the game. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a56800b4b8e8457bb2e0f1a4ad38b6576}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a56800b4b8e8457bb2e0f1a4ad38b6576}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!Moving\+Actor@{Moving\+Actor}}
+\index{Moving\+Actor@{Moving\+Actor}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{Moving\+Actor()}{MovingActor()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+Moving\+Actor (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{max\+\_\+velocity }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} 
+\begin{DoxyParams}{Parameters}
+{\em world} & The world in which \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} will exist in \\
+\hline
+{\em x} & is the x coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} \\
+\hline
+{\em y} & is the y coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab728cb879f42b81b171fda3ecb85260b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_ab728cb879f42b81b171fda3ecb85260b}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!apply\+Physics@{apply\+Physics}}
+\index{apply\+Physics@{apply\+Physics}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{apply\+Physics()}{applyPhysics()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+apply\+Physics (\begin{DoxyParamCaption}\item[{Rectangle}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method applies the laws of motion to a rectangle. 
+
+In the game a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}, can be physically represented by a rectangle, so when a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} moves the laws of physics should apply. 
+\begin{DoxyParams}{Parameters}
+{\em rect} & -\/ The rectangle that the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} represents. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a782d932e0ff4b3b99de0542892d671c2}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a782d932e0ff4b3b99de0542892d671c2}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!check\+Tiles@{check\+Tiles}}
+\index{check\+Tiles@{check\+Tiles}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{check\+Tiles()}{checkTiles()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+check\+Tiles (\begin{DoxyParamCaption}\item[{boolean}]{checkX }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method checks for tiles in the x and y directions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em checkX} & -\/ A boolean value indicating in which direction we ar checking for tiles. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an array of integers 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a58d1642a39909c7f838dd84b2fb6c506}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a58d1642a39909c7f838dd84b2fb6c506}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!collisionX@{collisionX}}
+\index{collisionX@{collisionX}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{collision\+X()}{collisionX()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+collisionX (\begin{DoxyParamCaption}\item[{Rectangle}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method checks if the rectangle collides with anything in the x direction. 
+
+In the game a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}, can be physically represented by a rectangle, so when a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} meets an immovable object in x direction, the method should return true. 
+\begin{DoxyParams}{Parameters}
+{\em rect} & -\/ The rectangle that the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} represents. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_acd9c3910d87bd94574b28599b7bc89db}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_acd9c3910d87bd94574b28599b7bc89db}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!collisionY@{collisionY}}
+\index{collisionY@{collisionY}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{collision\+Y()}{collisionY()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+collisionY (\begin{DoxyParamCaption}\item[{Rectangle}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method checks if the rectangle collides with anything in the y direction. 
+
+In the game a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}, can be physically represented by a rectangle, so when a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} meets an immovable object in y direction, the method should return true. 
+\begin{DoxyParams}{Parameters}
+{\em rect} & -\/ The rectangle that the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} represents. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_afad55ab6f56af85122985d51001e12fd}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_afad55ab6f56af85122985d51001e12fd}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+Damping@{get\+Damping}}
+\index{get\+Damping@{get\+Damping}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+Damping()}{getDamping()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+Damping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the daming constant in the damping instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the damping constant. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_aad83e64b051035aeec7b60f32a44ea6f}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_aad83e64b051035aeec7b60f32a44ea6f}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+Jump\+\_\+velocity@{get\+Jump\+\_\+velocity}}
+\index{get\+Jump\+\_\+velocity@{get\+Jump\+\_\+velocity}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+Jump\+\_\+velocity()}{getJump\_velocity()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+Jump\+\_\+velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the value of the jump\+\_\+velocity instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the jump velocity. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4afede59283c8dec6fcbf8ee31244320}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4afede59283c8dec6fcbf8ee31244320}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+Max\+\_\+velocity@{get\+Max\+\_\+velocity}}
+\index{get\+Max\+\_\+velocity@{get\+Max\+\_\+velocity}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+Max\+\_\+velocity()}{getMax\_velocity()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+Max\+\_\+velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the value of the max\+\_\+velocity instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the max velocity. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a40606a6b3bdc2afe43cfba764b00af4c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a40606a6b3bdc2afe43cfba764b00af4c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+State@{get\+State}}
+\index{get\+State@{get\+State}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+State()}{getState()}}
+{\footnotesize\ttfamily State nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the state of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}. 
+
+\begin{DoxyReturn}{Returns}
+a member of the State enumernation class representing what the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} is doing. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a2f5be4a9802efe50a98368729ab46472}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a2f5be4a9802efe50a98368729ab46472}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+State\+Time@{get\+State\+Time}}
+\index{get\+State\+Time@{get\+State\+Time}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+State\+Time()}{getStateTime()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+State\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the state\+Time constant in the state\+Time instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the state time. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a1aaf050e3c58bc9c523ccc6cefeabaf4}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a1aaf050e3c58bc9c523ccc6cefeabaf4}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+Tiles@{get\+Tiles}}
+\index{get\+Tiles@{get\+Tiles}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+Tiles()}{getTiles()}}
+{\footnotesize\ttfamily Array$<$Rectangle$>$ nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+Tiles (\begin{DoxyParamCaption}\item[{boolean}]{isX }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method gets the tiles in the x and y directions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em isX} & -\/ A boolean value indicating the direction in which the tile are being retrieved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an array of Rectangle objects 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0ab43947ad415abb6be30ede3695b712}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0ab43947ad415abb6be30ede3695b712}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!get\+Velocity@{get\+Velocity}}
+\index{get\+Velocity@{get\+Velocity}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{get\+Velocity()}{getVelocity()}}
+{\footnotesize\ttfamily Vector2 nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the Vector2 object in the velocity instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a Vector2 object representing the velocity of a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a5a5575f015d9ba97fcf344ae203f893c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a5a5575f015d9ba97fcf344ae203f893c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!is\+Dead@{is\+Dead}}
+\index{is\+Dead@{is\+Dead}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{is\+Dead()}{isDead()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the boolean value of the dead instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a boolean representing whether the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} is dead or not. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4fb6d4e3924b419bf9fb360cf2598672}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4fb6d4e3924b419bf9fb360cf2598672}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!is\+Faces\+Right@{is\+Faces\+Right}}
+\index{is\+Faces\+Right@{is\+Faces\+Right}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{is\+Faces\+Right()}{isFacesRight()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+is\+Faces\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the boolean value of the faces\+Right instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a boolean representing which way the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} faces. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a43e403fe46a10dbac42c1f7800146a9c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a43e403fe46a10dbac42c1f7800146a9c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!is\+Moving@{is\+Moving}}
+\index{is\+Moving@{is\+Moving}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{is\+Moving()}{isMoving()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+is\+Moving (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the boolean value of the moving instance variable. 
+
+\begin{DoxyReturn}{Returns}
+a boolean representing whether the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} is in motion. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0abaf6ff6ce1a5237a268f29e433a5ed}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a0abaf6ff6ce1a5237a268f29e433a5ed}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!move@{move}}
+\index{move@{move}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+move (\begin{DoxyParamCaption}\item[{Direction}]{dir }\end{DoxyParamCaption})}
+
+
+
+This method moves the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} in specific directions. 
+
+When on the ground a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} can be move in two directions, either left or right 
+\begin{DoxyParams}{Parameters}
+{\em dir} & -\/ A direction listed in the enumeration class called Direction. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a331dd9271c5023d07f1840b029e703d9}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a331dd9271c5023d07f1840b029e703d9}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!set\+Dead@{set\+Dead}}
+\index{set\+Dead@{set\+Dead}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{set\+Dead()}{setDead()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+set\+Dead (\begin{DoxyParamCaption}\item[{boolean}]{dead }\end{DoxyParamCaption})}
+
+
+
+This method sets the boolean value of the dead instance variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & boolean representing whether the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} is dead or not. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_af9e155f3ced19b73b253ce8f2d8f044d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_af9e155f3ced19b73b253ce8f2d8f044d}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!set\+Moving@{set\+Moving}}
+\index{set\+Moving@{set\+Moving}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{set\+Moving()}{setMoving()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+set\+Moving (\begin{DoxyParamCaption}\item[{boolean}]{moving }\end{DoxyParamCaption})}
+
+
+
+This method sets the boolean value of the moving instance variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em moving} & -\/ a boolean indicating whether the Movign\+Actor is in motion. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a64188e7edb074bbf9e193a8ec5fa2ec2}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a64188e7edb074bbf9e193a8ec5fa2ec2}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{set\+State()}{setState()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+set\+State (\begin{DoxyParamCaption}\item[{State}]{state }\end{DoxyParamCaption})}
+
+
+
+This method sets the state of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & member of the State enumernation class representing what the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor}{Moving\+Actor} is doing. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4c472abc5e7932e72845bcc0d94a3e45}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor_a4c472abc5e7932e72845bcc0d94a3e45}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}!rect\+Pool@{rect\+Pool}}
+\index{rect\+Pool@{rect\+Pool}!nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor@{nl\+::arjanfrans\+::mario\+::model\+::\+Moving\+Actor}}
+\subsubsection{\texorpdfstring{rect\+Pool}{rectPool}}
+{\footnotesize\ttfamily Pool$<$Rectangle$>$ nl.\+arjanfrans.\+mario.\+model.\+Moving\+Actor.\+rect\+Pool\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Pool<Rectangle>() \{
+        @Override
+        \textcolor{keyword}{protected} Rectangle newObject() \{
+            \textcolor{keywordflow}{return} \textcolor{keyword}{new} Rectangle();
+        \}
+    \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/Moving\+Actor.\+java\end{DoxyCompactItemize}

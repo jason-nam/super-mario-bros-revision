@@ -1,0 +1,285 @@
+\documentclass[12pt, titlepage]{article}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=red,
+    urlcolor=blue
+}
+\usepackage{soul}
+\usepackage[round]{natbib}
+\usepackage[dvipsnames]{xcolor}
+
+\title{SE 3XA3: Test Report\\Sketchy Super Mario Bros.}
+
+\author{Team \#1, Wario's Miners
+		\\ Kristine Uchendu (uchenduc)
+		\\ Jason Nam (namy2)
+		\\ Rylan Sykes (sykesr)
+}
+
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+\tableofcontents
+\listoftables
+\listoffigures
+
+\begin{table}[bp]
+\caption{\bf Revision History}
+\begin{tabularx}{\textwidth}{p{3cm}p{2cm}X}
+\toprule {\bf Date} & {\bf Version} & {\bf Notes}\\
+\midrule
+April 12, 2022 & 0.0 & Revision 0\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\newpage
+
+\pagenumbering{arabic}
+
+This document outlines the results of our testing plan that we described in our TestPlan.pdf document. Additionally, this document covers the effects that testing had on our application, as well as the approaches we took for automated testing and code coverage.
+
+\section{Functional Requirements Evaluation}
+
+\subsection{Revision 0 Functional Tests}
+
+\begin{enumerate}
+	\item Test ID: \textbf{T1} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T2} (Functional, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T3} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T4} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T5} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T6} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T7} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T8} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T9} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T10} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T11} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item \textcolor{red}{\st{Test ID: \textbf{T12} (Dynamic, Manual). Result: Success}}
+	\item Test ID: \textbf{T13} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+\end{enumerate}
+
+\subsection{Revision 1 Functional Tests}
+
+\begin{enumerate}
+	\item Test ID: \textbf{T28} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+	\item Test ID: \textbf{T29} (Dynamic, Manual). Result: \textcolor{LimeGreen}{Success}
+\end{enumerate}
+
+
+\section{Nonfunctional Requirements Evaluation}
+
+\subsection{Usability}
+
+\begin{description}
+    \item[NFR-U-1] (T16)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by introducing the game to 10 new users. The 10 new users were subjected to play the game without prior knowledge or know-how (knowledge and know-how of the original Super Mario Bros 16 bit is non-trivial). All found it easy to access stage, and were able to complete the first stage in less than 5 tries.
+
+    \item[NFR-U-2] (T17)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by surveying different people from different age groups. The age groups were as follows: 10-20, 20-30, 30-40. The people were surveyed on all the texts within the game that had been documented. All surveyed understood the simple English vocabulary used in the game.
+
+    \item[NFR-U-3] (T18)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by surveying people. The people were surveyed on all the symbols that ware used in the game. They were asked if the symbols are easy to understand and is universal. All surveyed understood the simple symbols used in the game, and most deemed the symbols universal.
+
+\end{description}
+
+\subsection{Performance}
+
+\begin{description}
+    \item[NFR-P-1] (T19)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by cloning the game repository on different types of devices, and running them to observe that the system runs without failure. All the devices were able to run the game without problems, and the game ran smoothly.
+
+    \item[NFR-P-2] (T20)\\
+    Type: Manual\\
+    Result: Mostly Success\\
+    \\
+    The following manual test was performed by manually testing numerous key bind inputs, and recording the time of the response of each actions. All the responses were less than 1 seconds, which satisfied our requirement. Some inputs had lag. However, this happened to be a lack of optimization for some operating systems.
+
+\end{description}
+
+\subsection{Operational and Environmental}
+
+\begin{description}
+    \item[NFR-OE-1] (T21)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by manually executing the game on Linux and macOS operating system devices. All devices running on Linux or macOS operating systems were able to run the game perfectly.
+
+    \item[NFR-OE-2] (T22)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by manually executing the game on Windows operating system devices. All devices running on Windows operating systems were able to run the game perfectly.
+
+    \item[NFR-OE-3] (T23)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by running the game in a Java 15 environment. The devices used to test this had Java 15 installed. All devices were able to run the game perfectly in a Java 15 environment.
+
+\end{description}
+
+\subsection{Maintainability and Support}
+
+\begin{description}
+    \item[NFR-MS-1] (T24)\\
+        Type: Manual\\
+        Result: Success\\
+        \\
+        The following manual test was performed by manually running a Gradle build from the source code files. The Gradle build was successful, and there were no lines of code that generated an error.
+
+\end{description}
+
+\subsection{Health and Safety}
+
+\begin{description}
+    \item[NFR-HS-1] (T27)\\
+    Type: Manual\\
+    Result: Success\\
+    \\
+    The following manual test was performed by having 10 users to play through all the game components while looking at the screen. All users reviewed the system graphics and determined that the feasibility of the system causing epileptic seizures based on medical consensus was close to none.
+
+\end{description}
+
+\section{Comparison to Existing Implementation}
+
+The original project did not have any tests implemented. Given that the project was unable to run during initial attempts, it would not have passed any of our test cases. Our project differed as we employed various manual tests (functional, non-functional) to verify functionality. We also created modules in our code that allows for better traceability throughout our tests and requirements.
+
+\section{Unit Testing}
+
+    Due to the nature of the software system, unit testing was not able to really be achieved in a meaningful way throughout this project. In a game such as Super Mario Brothers, the units of code work very closely with one another so one unit may need to employ another unit in order to be tested, not because the system isn't modular but because testing one unit may require the testing of another unit and that other unit may not make sense to test manually or automatically. For example, one code unit may deal with the physics of a character jumping, which could be tested manually but this would require the tester to see the character moving which would mean running many other units of the code as well. The physics code unit could also be tested automatically with a testing framework like JUnit, but that would require us to have almost exact expected conditions for the system to compare with to evaluate whether the test failed or not. Another part of our project that made unit difficult was the fact that automated testing was also quite difficult (and as we eventually discovered infeasible), and this is further discussed in the \textbf{Automated Testing} section.
+
+\section{Changes Due to Testing}
+
+The results of manual testing were comprised of mainly minor bug fixes and UI/graphical changes. There were no major overhauls or design changes as a result of our testing. Once the unintended behaviours were fixed, all tests were passed.
+
+\section{Automated Testing}
+
+As alluded to in the \textbf{Unit Testing} section of this document, automated testing was deemed infeasible for this project. Initially we had expected that automated testing would not be the highest priority type of testing but that we would still complete some to test the functionality of some important classes. We realized midway through the semester that trying to feed specific input conditions into JUnit and predict a specific end state for the system to compare with, was quite tedious when the game could just be run and the functionality of the game could be observed. Ultimately, the priority in a game is to achieve the desired functionality, and for that to translate onto the screen in the intended way so that the user is able to play the game. That is why automated tests are omitted from the test plan as well as this document. While we are confident in this approach for the scope of this project and course, this does impact our ability to quantitatively assess our code coverage when testing, which will be discussed in the \textbf{Code Coverage Metrics} section.
+
+\section{Trace to Requirements}
+
+\subsection{Functional Requirements}
+
+\begin{description}
+
+    \item[FR1:] T1 T2
+
+    \item[\textcolor{red}{\st{FR2:}}]
+
+    \item[FR3:] T4
+
+    \item[FR4:] T5
+
+    \item[FR5:] T6
+
+    \item[FR6:] T7
+
+    \item[FR7:] T8, T9
+
+    \item[FR8:] T9
+
+    \item[FR9:] T8
+
+    \item[FR10:] T9
+
+    \item[\textcolor{red}{\st{FR11:}}]
+
+    \item[\textcolor{red}{\st{FR12:}}]
+
+    \item[FR13:] T10
+
+    \item[FR14:] T11
+
+    \item[FR15:] T13
+
+    \item[\textcolor{red}{FR16:}] \textcolor{red}{T3}
+
+    \item[\textcolor{red}{FR17:}] \textcolor{red}{T28}
+
+    \item[\textcolor{red}{FR18:}] \textcolor{red}{T29}
+
+\end{description}
+
+\subsection{Non-Functional Requirements}
+
+\begin{description}
+
+    \item[NF4:] T16
+
+    \item[NF5:] T17
+
+    \item[NF6:] T18
+
+    \item[NF8:] T19
+
+    \item[NF10:] T20
+
+    \item[NF11:] T21
+
+    \item[NF12:] T22
+
+    \item[NF13:] T23
+
+    \item[NF17:] T27
+
+    \item[NF18:] T24
+
+\end{description}
+
+\section{Trace to Modules}
+
+\begin{description}
+    \item[M1] Gradle Configuration Module:
+    T1, T2
+
+    \item[M2] Launcher Module:
+    T1, T2
+
+    \item[M3] Audio Module:
+    T2, T3
+
+    \item[M4] Actions Module:
+    T4, T5, T6, T7, T8, T9, T10, T11, T12, T13
+
+    \item[M5] Input Module:
+    T4, T5, T7, T9, T11, T13
+
+    \item[M6] Models Module:
+    T2, T3, T6, T7, T8, T11, T12, T28, T29
+
+\end{description}
+
+\section{Code Coverage Metrics}
+
+As previously mentioned in this document, we focused on manual testing and with that comes the challenge of ensuring code coverage when testing. Due to the limited time we had to work on this project we didn't have as much time as we had hoped to look into a more sophisticated way of assessing how much of the code our manual tests were covering. Something we would often do is we would put print statements in specific methods to ensure that as we played the game, the methods that we were expecting to execute would execute, and that gave us an idea of how much of the code was actually being reach by our tests. Something we would have liked to try had we had more time is trying a software that records code coverage during manual tests. One software that was found in our preliminary research was Teamscale, but more specifically the Test Gap analysis feature. This feature is able to record test coverage regardless of whether the test is automated or manual, and has detailed documentation as well as tutorials. Trying this Teamscale feature out, would definitely be a learning curve, but would also be a key next step for the group if given more time.
+
+\bibliographystyle{plainnat}
+
+\bibliography{SRS}
+
+\end{document}

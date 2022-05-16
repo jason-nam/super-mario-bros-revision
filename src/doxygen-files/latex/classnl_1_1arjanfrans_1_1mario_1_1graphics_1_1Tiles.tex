@@ -1,0 +1,124 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles}{}\section{nl.\+arjanfrans.\+mario.\+graphics.\+Tiles Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles}\index{nl.\+arjanfrans.\+mario.\+graphics.\+Tiles@{nl.\+arjanfrans.\+mario.\+graphics.\+Tiles}}
+
+
+This is a class meant to deal with the tiles that make up the graphics of the game.  
+
+
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+graphics.\+Tiles\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a6e93b266076f60eeda8661bc0619dd8a}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a6e93b266076f60eeda8661bc0619dd8a}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a6e93b266076f60eeda8661bc0619dd8a}{dispose} ()
+\begin{DoxyCompactList}\small\item\em A method meant to dipose of the atlas file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Array$<$ Static\+Tiled\+Map\+Tile $>$ \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a032fa48452ac57c65e8e86c23a28f0ee}{get\+Animated\+Tile} (String name)
+\begin{DoxyCompactList}\small\item\em A method meant to retrieve an animation tile based on the name of the animation. \end{DoxyCompactList}\item 
+static Animation \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a2448c85397533ac26d5c0159e7746e1a}{get\+Animation} (float speed, String name)
+\begin{DoxyCompactList}\small\item\em A method meant to retrieve an animation based on the name of the animation. \end{DoxyCompactList}\item 
+static Texture\+Region \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a33e1805fc683bac7f3883119857486eb}{get\+Tile} (String name)
+\begin{DoxyCompactList}\small\item\em A method meant to find a tile in a tile sheet based on the named indicated for it in the atlas file. \end{DoxyCompactList}\item 
+static Texture\+Region \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_aec062c35528937ca08a65a3e5b120d91}{get\+Tile8} (String name)
+\begin{DoxyCompactList}\small\item\em A method meant to find a tile (split into to sets of eight pixels) in a tile sheet based on the named indicated for it in the atlas file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a7de5b9b53e9a767b5ddf60b6b6e282e4}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a7de5b9b53e9a767b5ddf60b6b6e282e4}} 
+static Texture\+Atlas {\bfseries atlas} = new Texture\+Atlas(\char`\"{}data/tiles/mario\+\_\+tileset.\+atlas\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is a class meant to deal with the tiles that make up the graphics of the game. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a032fa48452ac57c65e8e86c23a28f0ee}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a032fa48452ac57c65e8e86c23a28f0ee}} 
+\index{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}!get\+Animated\+Tile@{get\+Animated\+Tile}}
+\index{get\+Animated\+Tile@{get\+Animated\+Tile}!nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}}
+\subsubsection{\texorpdfstring{get\+Animated\+Tile()}{getAnimatedTile()}}
+{\footnotesize\ttfamily static Array$<$Static\+Tiled\+Map\+Tile$>$ nl.\+arjanfrans.\+mario.\+graphics.\+Tiles.\+get\+Animated\+Tile (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A method meant to retrieve an animation tile based on the name of the animation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ the name of the animation found in the mario\+\_\+tileset.\+atlas file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an array of Static\+Tiled\+Map\+Tile, representing the frames of the Animation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a2448c85397533ac26d5c0159e7746e1a}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a2448c85397533ac26d5c0159e7746e1a}} 
+\index{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}!get\+Animation@{get\+Animation}}
+\index{get\+Animation@{get\+Animation}!nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}}
+\subsubsection{\texorpdfstring{get\+Animation()}{getAnimation()}}
+{\footnotesize\ttfamily static Animation nl.\+arjanfrans.\+mario.\+graphics.\+Tiles.\+get\+Animation (\begin{DoxyParamCaption}\item[{float}]{speed,  }\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A method meant to retrieve an animation based on the name of the animation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ the name of the animation found in the mario\+\_\+tileset.\+atlas file. \\
+\hline
+{\em speed} & -\/ a float representing how fast the frames are to be moved through. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an Animation object, representing the Animation named. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a33e1805fc683bac7f3883119857486eb}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_a33e1805fc683bac7f3883119857486eb}} 
+\index{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}!get\+Tile@{get\+Tile}}
+\index{get\+Tile@{get\+Tile}!nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}}
+\subsubsection{\texorpdfstring{get\+Tile()}{getTile()}}
+{\footnotesize\ttfamily static Texture\+Region nl.\+arjanfrans.\+mario.\+graphics.\+Tiles.\+get\+Tile (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A method meant to find a tile in a tile sheet based on the named indicated for it in the atlas file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ the name of the tile found in the mario\+\_\+tileset.\+atlas file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Texture\+Region object which represents the tile\textquotesingle{}s location on a tile sheet 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_aec062c35528937ca08a65a3e5b120d91}\label{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles_aec062c35528937ca08a65a3e5b120d91}} 
+\index{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}!get\+Tile8@{get\+Tile8}}
+\index{get\+Tile8@{get\+Tile8}!nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles@{nl\+::arjanfrans\+::mario\+::graphics\+::\+Tiles}}
+\subsubsection{\texorpdfstring{get\+Tile8()}{getTile8()}}
+{\footnotesize\ttfamily static Texture\+Region nl.\+arjanfrans.\+mario.\+graphics.\+Tiles.\+get\+Tile8 (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A method meant to find a tile (split into to sets of eight pixels) in a tile sheet based on the named indicated for it in the atlas file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ the name of the tile found in the mario\+\_\+tileset.\+atlas file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Texture\+Region object which represents the tile\textquotesingle{}s location on a tile sheet 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/graphics/Tiles.\+java\end{DoxyCompactItemize}

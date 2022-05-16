@@ -1,0 +1,12 @@
+<map id="nl.arjanfrans.mario.model.Creature" name="nl.arjanfrans.mario.model.Creature">
+<area shape="rect" id="node10" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario.html" title="Represents the playable character in the game. " alt="" coords="889,71,1061,113"/>
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="1564,291,1736,333"/>
+<area shape="rect" id="node30" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag.html" title="This flag represents the flag pole at the end of the stage that completes if Mario interacts with it..." alt="" coords="877,417,1074,444"/>
+<area shape="rect" id="node8" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1World.html" title="Represents world. " alt="" coords="1249,510,1421,551"/>
+<area shape="rect" id="node18" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer.html" title="Render of world. " alt="" coords="2184,657,2348,698"/>
+<area shape="rect" id="node21" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground.html" title="The class meant to create a parallax background. " alt="" coords="1845,657,2009,698"/>
+<area shape="rect" id="node24" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer.html" title="The class meant to retrieve a layer from a ParallaxBackground. " alt="" coords="1568,627,1732,669"/>
+<area shape="rect" id="node11" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="604,185,791,226"/>
+<area shape="rect" id="node12" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1CharacterAnimation.html" title="This is an abstract class that will be implemented to handle the animations of various characters in ..." alt="" coords="183,269,369,310"/>
+<area shape="rect" id="node28" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles.html" title="This is a class meant to deal with the tiles that make up the graphics of the game. " alt="" coords="393,469,580,510"/>
+</map>

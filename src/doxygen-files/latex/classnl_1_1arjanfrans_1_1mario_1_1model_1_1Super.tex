@@ -1,0 +1,142 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Super Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super}\index{nl.\+arjanfrans.\+mario.\+model.\+Super@{nl.\+arjanfrans.\+mario.\+model.\+Super}}
+
+
+Inherited class that overrides \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom}{Mushroom} methods that represents mario in super state.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Super\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Super\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_ae31b2b33e224cd5db2e05aabc2e199d8}{Super} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float x, float y, float max\+\_\+velocity)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a07b8616c015473a84a5fc9a4108c9995}{draw} (Batch batch, float parent\+Alpha)
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a223190b10a7e63d5057f71cba6e60675}{act} (float delta)
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a10d5cd8618339a32260cdd5bed6ad4dd}{dispose} ()
+\begin{DoxyCompactList}\small\item\em Dispose mushroom. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a42fb98695c2b31d9078cbe864167ad9d}{die\+By\+Falling} ()
+\begin{DoxyCompactList}\small\item\em This method is an abstract method handled by the inherited class. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a71c70031aa0752fb4b2917aa4911f68d}{collision\+X\+Action} ()
+\begin{DoxyCompactList}\small\item\em This method is an abstract method handled by the inherited class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a7be59d0c68b7edcb3d25bd1cd52d48a2}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a7be59d0c68b7edcb3d25bd1cd52d48a2}} 
+Rectangle {\bfseries rect} = new Rectangle()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_ad7b7fb471cfa5965bee27e54904d19f7}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_ad7b7fb471cfa5965bee27e54904d19f7}} 
+static Texture\+Region {\bfseries texture}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Inherited class that overrides \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom}{Mushroom} methods that represents mario in super state. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_ae31b2b33e224cd5db2e05aabc2e199d8}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_ae31b2b33e224cd5db2e05aabc2e199d8}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!Super@{Super}}
+\index{Super@{Super}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{Super()}{Super()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Super.\+Super (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{max\+\_\+velocity }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super}{Super} 
+\begin{DoxyParams}{Parameters}
+{\em world} & The world object in which \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} will exist in \\
+\hline
+{\em x} & coordinate of super mushroom \\
+\hline
+{\em y} & coordinate of super mushroom \\
+\hline
+{\em max\+\_\+velocity} & of super mushroom \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a223190b10a7e63d5057f71cba6e60675}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a223190b10a7e63d5057f71cba6e60675}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!act@{act}}
+\index{act@{act}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{act()}{act()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Super.\+act (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})}
+
+
+
+
+
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a71c70031aa0752fb4b2917aa4911f68d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a71c70031aa0752fb4b2917aa4911f68d}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!collision\+X\+Action@{collision\+X\+Action}}
+\index{collision\+X\+Action@{collision\+X\+Action}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{collision\+X\+Action()}{collisionXAction()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Super.\+collision\+X\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method is an abstract method handled by the inherited class. 
+
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a42fb98695c2b31d9078cbe864167ad9d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a42fb98695c2b31d9078cbe864167ad9d}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!die\+By\+Falling@{die\+By\+Falling}}
+\index{die\+By\+Falling@{die\+By\+Falling}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{die\+By\+Falling()}{dieByFalling()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Super.\+die\+By\+Falling (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method is an abstract method handled by the inherited class. 
+
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a10d5cd8618339a32260cdd5bed6ad4dd}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a10d5cd8618339a32260cdd5bed6ad4dd}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!dispose@{dispose}}
+\index{dispose@{dispose}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{dispose()}{dispose()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Super.\+dispose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dispose mushroom. 
+
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a07b8616c015473a84a5fc9a4108c9995}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super_a07b8616c015473a84a5fc9a4108c9995}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}!draw@{draw}}
+\index{draw@{draw}!nl\+::arjanfrans\+::mario\+::model\+::\+Super@{nl\+::arjanfrans\+::mario\+::model\+::\+Super}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Super.\+draw (\begin{DoxyParamCaption}\item[{Batch}]{batch,  }\item[{float}]{parent\+Alpha }\end{DoxyParamCaption})}
+
+
+
+
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/\hyperlink{Super_8java}{Super.\+java}\end{DoxyCompactItemize}

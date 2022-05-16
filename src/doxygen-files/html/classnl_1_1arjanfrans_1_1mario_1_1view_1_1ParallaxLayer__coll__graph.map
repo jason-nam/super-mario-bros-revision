@@ -1,0 +1,12 @@
+<map id="nl.arjanfrans.mario.view.ParallaxLayer" name="nl.arjanfrans.mario.view.ParallaxLayer">
+<area shape="rect" id="node24" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground.html" title="The class meant to create a parallax background. " alt="" coords="601,209,765,250"/>
+<area shape="rect" id="node4" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1World.html" title="Represents world. " alt="" coords="1321,333,1493,374"/>
+<area shape="rect" id="node8" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="1601,234,1773,275"/>
+<area shape="rect" id="node21" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer.html" title="Render of world. " alt="" coords="965,339,1129,381"/>
+<area shape="rect" id="node6" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario.html" title="Represents the playable character in the game. " alt="" coords="2083,610,2255,651"/>
+<area shape="rect" id="node7" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="1861,362,2033,403"/>
+<area shape="rect" id="node30" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag.html" title="This flag represents the flag pole at the end of the stage that completes if Mario interacts with it..." alt="" coords="949,652,1146,679"/>
+<area shape="rect" id="node14" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="1313,754,1500,795"/>
+<area shape="rect" id="node15" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1CharacterAnimation.html" title="This is an abstract class that will be implemented to handle the animations of various characters in ..." alt="" coords="954,754,1141,795"/>
+<area shape="rect" id="node28" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles.html" title="This is a class meant to deal with the tiles that make up the graphics of the game. " alt="" coords="954,469,1141,510"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="nl.arjanfrans.mario.model.Mario" name="nl.arjanfrans.mario.model.Mario">
+<area shape="rect" id="node9" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1World.html" title="Represents world. " alt="" coords="1249,574,1421,615"/>
+<area shape="rect" id="node13" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer.html" title="Render of world. " alt="" coords="2184,630,2348,671"/>
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="1841,165,2013,206"/>
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="1564,286,1736,327"/>
+<area shape="rect" id="node27" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag.html" title="This flag represents the flag pole at the end of the stage that completes if Mario interacts with it..." alt="" coords="877,613,1074,640"/>
+<area shape="rect" id="node17" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground.html" title="The class meant to create a parallax background. " alt="" coords="1845,790,2009,831"/>
+<area shape="rect" id="node20" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer.html" title="The class meant to retrieve a layer from a ParallaxBackground. " alt="" coords="1568,849,1732,890"/>
+<area shape="rect" id="node24" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles.html" title="This is a class meant to deal with the tiles that make up the graphics of the game. " alt="" coords="393,674,580,715"/>
+<area shape="rect" id="node31" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1CharacterAnimation.html" title="This is an abstract class that will be implemented to handle the animations of various characters in ..." alt="" coords="183,474,369,515"/>
+<area shape="rect" id="node30" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="604,407,791,449"/>
+</map>

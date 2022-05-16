@@ -1,0 +1,4 @@
+<map id="nl.arjanfrans.mario.model.Mushroom" name="nl.arjanfrans.mario.model.Mushroom">
+<area shape="rect" id="node4" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super.html" title="Inherited class that overrides Mushroom methods that represents mario in super state. " alt="" coords="5,259,177,300"/>
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="5,80,177,121"/>
+</map>

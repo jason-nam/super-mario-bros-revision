@@ -1,0 +1,4 @@
+<map id="nl.arjanfrans.mario.model.Mario" name="nl.arjanfrans.mario.model.Mario">
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="5,169,177,211"/>
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="5,80,177,121"/>
+</map>

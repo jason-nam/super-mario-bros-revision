@@ -1,0 +1,14 @@
+<map id="nl.arjanfrans.mario.model.Goomba" name="nl.arjanfrans.mario.model.Goomba">
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="611,203,783,245"/>
+<area shape="rect" id="node11" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario.html" title="Represents the playable character in the game. " alt="" coords="889,251,1061,293"/>
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="1564,411,1736,453"/>
+<area shape="rect" id="node31" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag.html" title="This flag represents the flag pole at the end of the stage that completes if Mario interacts with it..." alt="" coords="877,520,1074,547"/>
+<area shape="rect" id="node9" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1World.html" title="Represents world. " alt="" coords="1249,630,1421,671"/>
+<area shape="rect" id="node19" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer.html" title="Render of world. " alt="" coords="2184,778,2348,819"/>
+<area shape="rect" id="node22" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground.html" title="The class meant to create a parallax background. " alt="" coords="1845,778,2009,819"/>
+<area shape="rect" id="node25" href="$classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxLayer.html" title="The class meant to retrieve a layer from a ParallaxBackground. " alt="" coords="1568,749,1732,790"/>
+<area shape="rect" id="node12" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="604,270,791,311"/>
+<area shape="rect" id="node13" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1CharacterAnimation.html" title="This is an abstract class that will be implemented to handle the animations of various characters in ..." alt="" coords="183,185,369,226"/>
+<area shape="rect" id="node33" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="604,138,791,179"/>
+<area shape="rect" id="node29" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1Tiles.html" title="This is a class meant to deal with the tiles that make up the graphics of the game. " alt="" coords="393,603,580,645"/>
+</map>

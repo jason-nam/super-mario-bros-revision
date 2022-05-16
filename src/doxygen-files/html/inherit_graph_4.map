@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1CharacterAnimation.html" title="This is an abstract class that will be implemented to handle the animations of various characters in ..." alt="" coords="5,39,192,80"/>
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation.html" title="This is a class that implements the abstract class, CharacterAnimation, specifically for the animatio..." alt="" coords="240,71,427,112"/>
+</map>

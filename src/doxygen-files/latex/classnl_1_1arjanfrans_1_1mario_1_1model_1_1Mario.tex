@@ -1,0 +1,381 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Mario Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}\index{nl.\+arjanfrans.\+mario.\+model.\+Mario@{nl.\+arjanfrans.\+mario.\+model.\+Mario}}
+
+
+Represents the playable character in the game.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Mario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Mario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3e3683dae8285b1bb0608d493b9b532a}{Mario} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float positionX, float positionY)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8e22f381330317da3aca016f4713f88a}{capture\+Flag} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} flag, float endX, float endY)
+\begin{DoxyCompactList}\small\item\em Behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} interacts with the flag pole (finishes the game) \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a231319aab3b67229e23c0ff4510c5239}{act} (float delta)
+\begin{DoxyCompactList}\small\item\em Controls \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s movement after each discrete time step. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a50937f347ddf9eb8f114ad78e57e559c}{draw} (Batch batch, float parent\+Alpha)
+\begin{DoxyCompactList}\small\item\em Draws \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} on the G\+UI. \end{DoxyCompactList}\item 
+Animation \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a73c861a72b4a0ec8c7e87da0da5dac47}{get\+Animation} ()
+\begin{DoxyCompactList}\small\item\em Returns \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s animations. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a0a0c01da34e063939f6d50c43c8edda7}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a0a0c01da34e063939f6d50c43c8edda7}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a0a0c01da34e063939f6d50c43c8edda7}{dispose} ()
+\begin{DoxyCompactList}\small\item\em Removes \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} from the G\+UI. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4ff385372dd5b42110839b1c3a92e0c4}{set\+Immume} (boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a09b83e0286895f31f33418883c06ce01}{immume})
+\begin{DoxyCompactList}\small\item\em Sets \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s immune status. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4d82e5956168d3222d122854a17300dd}{move} (Direction dir)
+\begin{DoxyCompactList}\small\item\em Sets \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s velocity and direction to be in the direction of the specified movement. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3c4265e4764640c191e8177975feaf53}{is\+Controls\+Enabled} ()
+\begin{DoxyCompactList}\small\item\em Returns whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa396b035c909e03417db5f201d894e2f}{set\+Controls\+Enabled} (boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5274108ef60b357abdca2e64b6378d58}{controls\+Enabled})
+\begin{DoxyCompactList}\small\item\em Sets whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_abc7f009333139289959b2f3f6d9519e0}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_abc7f009333139289959b2f3f6d9519e0}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_abc7f009333139289959b2f3f6d9519e0}{update\+Size} ()
+\begin{DoxyCompactList}\small\item\em Updates \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s size on G\+UI based on the dimensions of the state and level. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a02fb31ac344f015e0793f637d421e50d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a02fb31ac344f015e0793f637d421e50d}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a02fb31ac344f015e0793f637d421e50d}{die\+By\+Falling} ()
+\begin{DoxyCompactList}\small\item\em Eliminates \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} when he is below the bounds of the stage. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8ec810c8c16e6f4151c1259fb96d1790}{collision\+X\+Action} ()
+\begin{DoxyCompactList}\small\item\em Triggered when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} collides with an object in the X direction. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a43d01eeb1d6b41506b86a806e7ec0f95}{collision\+With\+Enemy} ()
+\begin{DoxyCompactList}\small\item\em Determines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is colliding with any enemy. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a9b056f3922cbd9f3b7a1e12c71a921d6}{apply\+Physics} (Rectangle \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a305117c37af2618742feafceffd893be}{rect})
+\begin{DoxyCompactList}\small\item\em Applies gravity and physics to \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a19d885fce354f45ae4419abd36cd795e}{collision\+With\+Mushroom} ()
+\begin{DoxyCompactList}\small\item\em Determines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is consuming a mushroom. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation}{Mario\+Animation} \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a62bcb1022af69fedb1191fba75da65b2}{gfx} = new \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation}{Mario\+Animation}()
+\item 
+Rectangle \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a305117c37af2618742feafceffd893be}{rect} = new Rectangle()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5f5b797929d57a1f55a39e1312c98c64}{hit\+By\+Enemy} ()
+\begin{DoxyCompactList}\small\item\em Behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is hit by an enemy. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_ab9f4a29d9ada92deaf71cc9bf7f09ebe}{is\+Touched} (float startX, float endX)
+\begin{DoxyCompactList}\small\item\em Returns whether \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is touching an object. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa31ff544aeab7ea01d0cdb54ba31a86b}{jump} ()
+\begin{DoxyCompactList}\small\item\em Behaviour for when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} jumps. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a002115bd2f3f057d21ec38f4f5cfa833}{big\+\_\+mario} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom}{Mushroom} mushroom)
+\begin{DoxyCompactList}\small\item\em Causes \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} to transform into Big \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} (power-\/up) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_ac2312d3439230c4f7451af3ea5c7fc90}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_ac2312d3439230c4f7451af3ea5c7fc90}} 
+float {\bfseries jump\+\_\+boost} = 40f
+\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a09b83e0286895f31f33418883c06ce01}{immume}
+\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5274108ef60b357abdca2e64b6378d58}{controls\+Enabled} = true
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents the playable character in the game. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3e3683dae8285b1bb0608d493b9b532a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3e3683dae8285b1bb0608d493b9b532a}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!Mario@{Mario}}
+\index{Mario@{Mario}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{Mario()}{Mario()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Mario.\+Mario (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{positionX,  }\item[{float}]{positionY }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} 
+\begin{DoxyParams}{Parameters}
+{\em world} & The world in which \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} will exist in \\
+\hline
+{\em positionX} & x coordinate of the position of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} \\
+\hline
+{\em positionY} & y coordinate of the position of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a231319aab3b67229e23c0ff4510c5239}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a231319aab3b67229e23c0ff4510c5239}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!act@{act}}
+\index{act@{act}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{act()}{act()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+act (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})}
+
+
+
+Controls \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s movement after each discrete time step. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & Change in time \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a9b056f3922cbd9f3b7a1e12c71a921d6}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a9b056f3922cbd9f3b7a1e12c71a921d6}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!apply\+Physics@{apply\+Physics}}
+\index{apply\+Physics@{apply\+Physics}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{apply\+Physics()}{applyPhysics()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+apply\+Physics (\begin{DoxyParamCaption}\item[{Rectangle}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Applies gravity and physics to \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. 
+
+Applies gravity if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is falling. Determines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is colliding with an actor or object within the stage 
+\begin{DoxyParams}{Parameters}
+{\em rect} & A rectangle object that is being checked for collision against \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a002115bd2f3f057d21ec38f4f5cfa833}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a002115bd2f3f057d21ec38f4f5cfa833}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!big\+\_\+mario@{big\+\_\+mario}}
+\index{big\+\_\+mario@{big\+\_\+mario}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{big\+\_\+mario()}{big\_mario()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+big\+\_\+mario (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom}{Mushroom}}]{mushroom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Causes \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} to transform into Big \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} (power-\/up) 
+
+Changes \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s model to be large, have an extra health point, and plays an audio cue 
+\begin{DoxyParams}{Parameters}
+{\em mushroom} & The mushroom \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} has consumed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8e22f381330317da3aca016f4713f88a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8e22f381330317da3aca016f4713f88a}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!capture\+Flag@{capture\+Flag}}
+\index{capture\+Flag@{capture\+Flag}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{capture\+Flag()}{captureFlag()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+capture\+Flag (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag}}]{flag,  }\item[{float}]{endX,  }\item[{float}]{endY }\end{DoxyParamCaption})}
+
+
+
+Behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} interacts with the flag pole (finishes the game) 
+
+Plays slide animation, win sound, and completes the game 
+\begin{DoxyParams}{Parameters}
+{\em flag} & The flag object in which \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} has interacted with \\
+\hline
+{\em endX} & x coordinate where \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} will walk to after sliding down the pole \\
+\hline
+{\em endY} & y coordinate where \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} will walk to after sliding down the pole \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a43d01eeb1d6b41506b86a806e7ec0f95}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a43d01eeb1d6b41506b86a806e7ec0f95}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!collision\+With\+Enemy@{collision\+With\+Enemy}}
+\index{collision\+With\+Enemy@{collision\+With\+Enemy}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{collision\+With\+Enemy()}{collisionWithEnemy()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+collision\+With\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Determines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is colliding with any enemy. 
+
+Checks all \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba}\textquotesingle{}s in the stage for collision with \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. If \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is colliding then \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} will take damage or be eliminated. If \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is trampling a \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} then the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} will be eliminated \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a19d885fce354f45ae4419abd36cd795e}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a19d885fce354f45ae4419abd36cd795e}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!collision\+With\+Mushroom@{collision\+With\+Mushroom}}
+\index{collision\+With\+Mushroom@{collision\+With\+Mushroom}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{collision\+With\+Mushroom()}{collisionWithMushroom()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+collision\+With\+Mushroom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Determines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is consuming a mushroom. 
+
+Checks all mushrooms in the stage and deteremines if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is consuming (colliding) with any of them \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8ec810c8c16e6f4151c1259fb96d1790}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a8ec810c8c16e6f4151c1259fb96d1790}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!collision\+X\+Action@{collision\+X\+Action}}
+\index{collision\+X\+Action@{collision\+X\+Action}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{collision\+X\+Action()}{collisionXAction()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+collision\+X\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Triggered when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} collides with an object in the X direction. 
+
+Stops \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} since \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} cannot move through object \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a50937f347ddf9eb8f114ad78e57e559c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a50937f347ddf9eb8f114ad78e57e559c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!draw@{draw}}
+\index{draw@{draw}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+draw (\begin{DoxyParamCaption}\item[{Batch}]{batch,  }\item[{float}]{parent\+Alpha }\end{DoxyParamCaption})}
+
+
+
+Draws \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} on the G\+UI. 
+
+Assists lib\+G\+DX in drawing \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} in a specific batch 
+\begin{DoxyParams}{Parameters}
+{\em batch} & The texture region where \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is to be drawn \\
+\hline
+{\em parent\+Alpha} & Not used \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a73c861a72b4a0ec8c7e87da0da5dac47}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a73c861a72b4a0ec8c7e87da0da5dac47}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!get\+Animation@{get\+Animation}}
+\index{get\+Animation@{get\+Animation}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{get\+Animation()}{getAnimation()}}
+{\footnotesize\ttfamily Animation nl.\+arjanfrans.\+mario.\+model.\+Mario.\+get\+Animation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s animations. 
+
+\begin{DoxyReturn}{Returns}
+An animation object representing \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s animations 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5f5b797929d57a1f55a39e1312c98c64}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5f5b797929d57a1f55a39e1312c98c64}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!hit\+By\+Enemy@{hit\+By\+Enemy}}
+\index{hit\+By\+Enemy@{hit\+By\+Enemy}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{hit\+By\+Enemy()}{hitByEnemy()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+hit\+By\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is hit by an enemy. 
+
+When \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is hit by an enemy he will take damage, or be eliminated from the stage \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3c4265e4764640c191e8177975feaf53}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a3c4265e4764640c191e8177975feaf53}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!is\+Controls\+Enabled@{is\+Controls\+Enabled}}
+\index{is\+Controls\+Enabled@{is\+Controls\+Enabled}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{is\+Controls\+Enabled()}{isControlsEnabled()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Mario.\+is\+Controls\+Enabled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. 
+
+\begin{DoxyReturn}{Returns}
+A boolean whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} or not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_ab9f4a29d9ada92deaf71cc9bf7f09ebe}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_ab9f4a29d9ada92deaf71cc9bf7f09ebe}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!is\+Touched@{is\+Touched}}
+\index{is\+Touched@{is\+Touched}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{is\+Touched()}{isTouched()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Mario.\+is\+Touched (\begin{DoxyParamCaption}\item[{float}]{startX,  }\item[{float}]{endX }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Returns whether \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is touching an object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em startX} & x coordinate of the position of the object \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} may be colliding with \\
+\hline
+{\em endY} & y coordinate of the position of the object \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} may be colliding with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean whether \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is colliding with the object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa31ff544aeab7ea01d0cdb54ba31a86b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa31ff544aeab7ea01d0cdb54ba31a86b}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!jump@{jump}}
+\index{jump@{jump}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{jump()}{jump()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Behaviour for when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} jumps. 
+
+Causes \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s y velocity to increase by his jump velocity. Plays jump sound effect \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4d82e5956168d3222d122854a17300dd}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4d82e5956168d3222d122854a17300dd}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!move@{move}}
+\index{move@{move}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+move (\begin{DoxyParamCaption}\item[{Direction}]{dir }\end{DoxyParamCaption})}
+
+
+
+Sets \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s velocity and direction to be in the direction of the specified movement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & The direction in which \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is desired to move in \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa396b035c909e03417db5f201d894e2f}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_aa396b035c909e03417db5f201d894e2f}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!set\+Controls\+Enabled@{set\+Controls\+Enabled}}
+\index{set\+Controls\+Enabled@{set\+Controls\+Enabled}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{set\+Controls\+Enabled()}{setControlsEnabled()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+set\+Controls\+Enabled (\begin{DoxyParamCaption}\item[{boolean}]{controls\+Enabled }\end{DoxyParamCaption})}
+
+
+
+Sets whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controls\+Enabled} & A boolean representing whether the user has control of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} or not \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4ff385372dd5b42110839b1c3a92e0c4}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a4ff385372dd5b42110839b1c3a92e0c4}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!set\+Immume@{set\+Immume}}
+\index{set\+Immume@{set\+Immume}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{set\+Immume()}{setImmume()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Mario.\+set\+Immume (\begin{DoxyParamCaption}\item[{boolean}]{immume }\end{DoxyParamCaption})}
+
+
+
+Sets \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s immune status. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em immume} & A boolean representing if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} is immune or not \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5274108ef60b357abdca2e64b6378d58}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a5274108ef60b357abdca2e64b6378d58}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!controls\+Enabled@{controls\+Enabled}}
+\index{controls\+Enabled@{controls\+Enabled}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{controls\+Enabled}{controlsEnabled}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Mario.\+controls\+Enabled = true\hspace{0.3cm}{\ttfamily [private]}}
+
+If the user can control \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} or not \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a62bcb1022af69fedb1191fba75da65b2}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a62bcb1022af69fedb1191fba75da65b2}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!gfx@{gfx}}
+\index{gfx@{gfx}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{gfx}{gfx}}
+{\footnotesize\ttfamily \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation}{Mario\+Animation} nl.\+arjanfrans.\+mario.\+model.\+Mario.\+gfx = new \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1MarioAnimation}{Mario\+Animation}()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}\textquotesingle{}s animations \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a09b83e0286895f31f33418883c06ce01}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a09b83e0286895f31f33418883c06ce01}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!immume@{immume}}
+\index{immume@{immume}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{immume}{immume}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Mario.\+immume\hspace{0.3cm}{\ttfamily [private]}}
+
+If \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} can take damage or not \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a305117c37af2618742feafceffd893be}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario_a305117c37af2618742feafceffd893be}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}!rect@{rect}}
+\index{rect@{rect}!nl\+::arjanfrans\+::mario\+::model\+::\+Mario@{nl\+::arjanfrans\+::mario\+::model\+::\+Mario}}
+\subsubsection{\texorpdfstring{rect}{rect}}
+{\footnotesize\ttfamily Rectangle nl.\+arjanfrans.\+mario.\+model.\+Mario.\+rect = new Rectangle()\hspace{0.3cm}{\ttfamily [protected]}}
+
+Rectanlge surrounding \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/\hyperlink{Mario_8java}{Mario.\+java}\end{DoxyCompactItemize}

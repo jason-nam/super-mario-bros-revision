@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\title{SE 3XA3: Development Plan\\Sketchy Super Mario Bros.}
+
+\author{Team \#1, Wario's Miners
+		\\ Kristine Uchendu (uchenduc)
+		\\ Jason Nam (namy2)
+		\\ Rylan Sykes (sykesr)
+}
+
+\date{}
+
+%\input{../Comments}
+
+\begin{document}
+
+\begin{table}[hp]
+\caption{Revision History} \label{TblRevisionHistory}
+\begin{tabularx}{\textwidth}{llX}
+\toprule
+\textbf{Date} & \textbf{Developer(s)} & \textbf{Change}\\
+\midrule
+February 4 & Kristine Uchendu, Rylan Sykes, Jason Nam & Changes made to the template have been added.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\newpage
+
+\maketitle
+
+Put your introductory blurb here.
+
+\section{Team Meeting Plan}
+
+We will attempt to follow our team meeting plan as closely as possible. The meeting plan is as follows: meeting are held regularly (twice a week on the group’s lab section days i.e. Tuesday and Thursday) at 5pm. Additional meetings may be required based on necessity: e.g. meetings may be held closer to deadlines for our work to be looked over prior to submitting. Meetings are held on Discord in the `sfwreng 3xa3` group chat over a voice call. The roles for meetings are as follows:the manager will be responsible for leading the meeting and ensuring that the topics covered in the meeting are on schedule with the deliverables, the coordinator will be responsible for organising the meeting & time keeping during the meeting, and the scribe will be responsible for note taking and facilitating conversations. The roles are not static; we will rotate between these roles week by week so no individual is stuck with the same role for the entirety of the project. Additionally, all of us act as contributors to ideas.
+
+\section{Team Communication Plan}
+
+Our team will use a combination of the following: Git (Issues, Branches, Merge requests, Milestones, Boards), Discord, MS Teams. Git will be used for mainly development communication. We will use the various Git features to convey progress and display (in detail) the issues or contributions each of us are making to the repository. Although development communication is on Git (for the most part), relevant info will also be relayed through Discord as a means of informing each other through a more natural and human understandable medium. Discord will be used as the main method of communication that is expected to be checked regularly. Microsoft Teams will be used, as well, to communicate with the TA’s of the course. Our group has already exchanged contact information.
+
+\section{Team Member Roles}
+
+As mentioned in the Team Meeting Plan section of this document, there will be three roles that we cycle through for the remainder of the term. This ensures that the burden of leading the team is distributed amongst all members of the group. It is a similar idea with the role of scribe. This is a role that we will share throughout the semester as it is important that we all experience each role. With regards to expertise in a specific area, members of this group have very similar skills, so something foreign to one member is likely foreign to all and will require some independent research from the group member who needs the information. If a member of the group uses information or technologies that are foreign to other members of the group it is expected that they document what they found and how it is implemented so that the rest of the group is caught up. The role schedule is as follows:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|} 
+ \hline
+ Dates & Manager & Scribe & Coordinator \\ [0.5ex] 
+ \hline\hline
+ Feb. 4 2022 - Feb. 25 2022 & Kristine & Jason & Rylan \\ 
+ \hline
+ Feb. 26 2022 - Mar. 19 2022 & Rylan & Kristine & Jason \\
+ \hline
+ Mar. 20 2022 - Apr. 9 2022 & Jason & Rylan & Kristine \\
+ \hline
+\end{tabular}
+\end{center}
+
+\section{Git Workflow Plan}
+
+Our group will utilise multiple features of Git. We will use Branches by having multiple branches for different purposes: main will be used to test and finalise contributions. We will create branches for features such as the GUI, controls, code restructuring, sounds, etc. and merge them to main to accumulate the changes. Pull requests will be used to merge feature branches to main, they will include descriptions which will cover implementation details to clarify the purpose of the PR. Git Issues will be used to view the issues in our repository, once an issue is fixed, it’s resolved on Git. Any member is able to tackle an issue with consent of the other members. Labels/tags will be used to organise PRs and Issues and backtrack any bugs that were introduced into main. Milestones will be set up to track our progress and set deadlines for what we, as a group, want to accomplish by a specific date. These milestones will be created at the beginning of the development, and will align with the project schedule (that we have decided on) as well as the deliverables due dates. Finally, Boards will be used for 1. Determining what each person is currently focusing on and their progress on the task and 2. Backtracking on PRs and Issues that may have caused bugs in the program.
+
+
+\section{Proof of Concept Demonstration Plan}
+
+Some risks that are present in this project include testing the program, version control, and difficulty of compiling required libraries. Testing will require us to write test cases for different scenarios in the game. We will also need to verify that there are no issues with each test case. The original code has been written in outdated software versions. It is important to properly address needed changes for version control of the program. As a requirement to the previous risk, it is paramount that the required libraries are installable, compilable, and executable. However, the libraries require outdated programming languages as well as plug-ins. The IntelliJ IDE will have to be able to support and run the required libraries. 
+
+\section{Technology}
+
+Our group will work mainly with the Java programming language. Based on circumstances, our group might also work with HTML or CSS programming languages. We will utilise IntelliJ IDE that has been built in Gradle to run the program. The testing framework will mostly consist of JUnit tests. Our group will use the LaTeX software system for document preparation and generation.
+
+\section{Coding Style}
+
+Our group will implement Google’s coding standards for source code in Java Programming Language. The following is a link to the Google Java Style Guide manual:  https://google.github.io/styleguide/javaguide.html. We will remain consistent with our coding style standards. We will also remain flexible and apply improvements to our coding style over  the lifetime of our project.
+
+\section{Project Schedule}
+
+See sketchysupermariobros.pdf in the Development Plan directory.
+
+\section{Project Review}
+
+\end{document}

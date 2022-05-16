@@ -1,0 +1,259 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Flag Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}\index{nl.\+arjanfrans.\+mario.\+model.\+Flag@{nl.\+arjanfrans.\+mario.\+model.\+Flag}}
+
+
+This flag represents the flag pole at the end of the stage that completes if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} interacts with it.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Flag\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Flag\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a69dcd8fbda6358ef4d2f0afbc273ef19}{Flag} (float x, float y, float width, float height, float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a3bbb2687c3bac27f6cee8ae891eddc16}{endX}, float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_af5798cd4d07551f52e4b06e1b42efc19}{endY})
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a92c1d0b95a46934e2f9b286ca233452a}{act} (float delta)
+\begin{DoxyCompactList}\small\item\em How the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} acts each time instance. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_accca18a710db846a8479e60be7fcc847}{take\+Down} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} captures flag. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a37b444b2cce56fc741f29b12cfb9ebd0}{draw} (Batch batch, float parent\+Alpha)
+\begin{DoxyCompactList}\small\item\em Draws the flag. \end{DoxyCompactList}\item 
+Rectangle \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a1602244ce7c750bd95ac7265e50ad557}{rect} ()
+\begin{DoxyCompactList}\small\item\em Rectangle object in which the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} exists in. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ae6e50aebb2bedd7b306ee99685212b2c}{get\+EndX} ()
+\begin{DoxyCompactList}\small\item\em Gets end X coordinate. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0dee35b76827d958f8054e2fb5854a7b}{get\+EndY} ()
+\begin{DoxyCompactList}\small\item\em Gets end Y coordinate. \end{DoxyCompactList}\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_aee023da973eca87f5ba2c809d81d4379}{is\+Down} ()
+\begin{DoxyCompactList}\small\item\em Gets whether the flag is down or not. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a782bc6aff5cbac7ae16c17e31f2d8887}{set\+Down} (boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a60f19c488013d7598681a199cd60f109}{down})
+\begin{DoxyCompactList}\small\item\em Sets the flag to the down state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Animation \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0ae6225f7cd85bb4258325be58a92a5b}{animation}
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_adef15ac263403cee29a647f402a49167}{state\+Time}
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a3bbb2687c3bac27f6cee8ae891eddc16}{endX}
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_af5798cd4d07551f52e4b06e1b42efc19}{endY}
+\item 
+boolean \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a60f19c488013d7598681a199cd60f109}{down} = false
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a9bd441f257959ac2fc23e18675a80db2}{bottomY}
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ac3544e1ccdb436d5b980426f7a7a0f4c}{slide\+Offset} = 2
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This flag represents the flag pole at the end of the stage that completes if \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} interacts with it. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a69dcd8fbda6358ef4d2f0afbc273ef19}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a69dcd8fbda6358ef4d2f0afbc273ef19}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!Flag@{Flag}}
+\index{Flag@{Flag}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{Flag()}{Flag()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Flag.\+Flag (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{width,  }\item[{float}]{height,  }\item[{float}]{endX,  }\item[{float}]{endY }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} 
+\begin{DoxyParams}{Parameters}
+{\em x} & x coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} \\
+\hline
+{\em y} & y coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} \\
+\hline
+{\em width} & The width of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} \\
+\hline
+{\em height} & The height of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} \\
+\hline
+{\em endX} & x coordinate to describe where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends \\
+\hline
+{\em endY} & y coordinate to describe where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a92c1d0b95a46934e2f9b286ca233452a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a92c1d0b95a46934e2f9b286ca233452a}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!act@{act}}
+\index{act@{act}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{act()}{act()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Flag.\+act (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})}
+
+
+
+How the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} acts each time instance. 
+
+After each discrete time step, this method is called and the state time is updated 
+\begin{DoxyParams}{Parameters}
+{\em delta} & The change in time for the actor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a37b444b2cce56fc741f29b12cfb9ebd0}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a37b444b2cce56fc741f29b12cfb9ebd0}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!draw@{draw}}
+\index{draw@{draw}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Flag.\+draw (\begin{DoxyParamCaption}\item[{Batch}]{batch,  }\item[{float}]{parent\+Alpha }\end{DoxyParamCaption})}
+
+
+
+Draws the flag. 
+
+Assists lib\+G\+DX in drawing the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} into the world, defines position and animation 
+\begin{DoxyParams}{Parameters}
+{\em batch} & Texture region where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} is being drawn \\
+\hline
+{\em parent\+Alpha} & Not used \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ae6e50aebb2bedd7b306ee99685212b2c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ae6e50aebb2bedd7b306ee99685212b2c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!get\+EndX@{get\+EndX}}
+\index{get\+EndX@{get\+EndX}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{get\+End\+X()}{getEndX()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+get\+EndX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets end X coordinate. 
+
+\begin{DoxyReturn}{Returns}
+Returns float representing the x coordinate where the rectangle surrounding the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0dee35b76827d958f8054e2fb5854a7b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0dee35b76827d958f8054e2fb5854a7b}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!get\+EndY@{get\+EndY}}
+\index{get\+EndY@{get\+EndY}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{get\+End\+Y()}{getEndY()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+get\+EndY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets end Y coordinate. 
+
+\begin{DoxyReturn}{Returns}
+Returns float representing the y coordinate where the rectangle surrounding the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_aee023da973eca87f5ba2c809d81d4379}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_aee023da973eca87f5ba2c809d81d4379}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!is\+Down@{is\+Down}}
+\index{is\+Down@{is\+Down}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{is\+Down()}{isDown()}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Flag.\+is\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets whether the flag is down or not. 
+
+\begin{DoxyReturn}{Returns}
+Returns boolean of whether the flag has been captured or not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a1602244ce7c750bd95ac7265e50ad557}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a1602244ce7c750bd95ac7265e50ad557}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!rect@{rect}}
+\index{rect@{rect}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{rect()}{rect()}}
+{\footnotesize\ttfamily Rectangle nl.\+arjanfrans.\+mario.\+model.\+Flag.\+rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Rectangle object in which the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} exists in. 
+
+\begin{DoxyReturn}{Returns}
+Returns lib\+G\+DX rectangle object with this objects coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a782bc6aff5cbac7ae16c17e31f2d8887}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a782bc6aff5cbac7ae16c17e31f2d8887}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!set\+Down@{set\+Down}}
+\index{set\+Down@{set\+Down}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{set\+Down()}{setDown()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Flag.\+set\+Down (\begin{DoxyParamCaption}\item[{boolean}]{down }\end{DoxyParamCaption})}
+
+
+
+Sets the flag to the down state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em down} & A boolean representing whether the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} is in the down state or not \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_accca18a710db846a8479e60be7fcc847}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_accca18a710db846a8479e60be7fcc847}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!take\+Down@{take\+Down}}
+\index{take\+Down@{take\+Down}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{take\+Down()}{takeDown()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Flag.\+take\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} captures flag. 
+
+Triggered when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} interacts with the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} pole 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0ae6225f7cd85bb4258325be58a92a5b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a0ae6225f7cd85bb4258325be58a92a5b}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!animation@{animation}}
+\index{animation@{animation}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{animation}{animation}}
+{\footnotesize\ttfamily Animation nl.\+arjanfrans.\+mario.\+model.\+Flag.\+animation\hspace{0.3cm}{\ttfamily [private]}}
+
+Animation that the flag displays \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a9bd441f257959ac2fc23e18675a80db2}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a9bd441f257959ac2fc23e18675a80db2}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!bottomY@{bottomY}}
+\index{bottomY@{bottomY}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{bottomY}{bottomY}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+bottomY\hspace{0.3cm}{\ttfamily [private]}}
+
+Y coordinate to describe the bottom of the flag \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a60f19c488013d7598681a199cd60f109}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a60f19c488013d7598681a199cd60f109}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!down@{down}}
+\index{down@{down}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{down}{down}}
+{\footnotesize\ttfamily boolean nl.\+arjanfrans.\+mario.\+model.\+Flag.\+down = false\hspace{0.3cm}{\ttfamily [private]}}
+
+If the flag has been captured or not \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a3bbb2687c3bac27f6cee8ae891eddc16}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_a3bbb2687c3bac27f6cee8ae891eddc16}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!endX@{endX}}
+\index{endX@{endX}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{endX}{endX}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+endX\hspace{0.3cm}{\ttfamily [private]}}
+
+X coordinate to describe where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_af5798cd4d07551f52e4b06e1b42efc19}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_af5798cd4d07551f52e4b06e1b42efc19}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!endY@{endY}}
+\index{endY@{endY}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{endY}{endY}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+endY\hspace{0.3cm}{\ttfamily [private]}}
+
+Y coordinate to describe where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag}{Flag} ends \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ac3544e1ccdb436d5b980426f7a7a0f4c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_ac3544e1ccdb436d5b980426f7a7a0f4c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!slide\+Offset@{slide\+Offset}}
+\index{slide\+Offset@{slide\+Offset}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{slide\+Offset}{slideOffset}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+slide\+Offset = 2\hspace{0.3cm}{\ttfamily [private]}}
+
+Y value to compensate for the slide height \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_adef15ac263403cee29a647f402a49167}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag_adef15ac263403cee29a647f402a49167}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}!state\+Time@{state\+Time}}
+\index{state\+Time@{state\+Time}!nl\+::arjanfrans\+::mario\+::model\+::\+Flag@{nl\+::arjanfrans\+::mario\+::model\+::\+Flag}}
+\subsubsection{\texorpdfstring{state\+Time}{stateTime}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Flag.\+state\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+Internal time representation of object 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/\hyperlink{Flag_8java}{Flag.\+java}\end{DoxyCompactItemize}

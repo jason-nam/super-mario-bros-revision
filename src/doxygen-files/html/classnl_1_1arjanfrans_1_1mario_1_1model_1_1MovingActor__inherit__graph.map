@@ -1,0 +1,7 @@
+<map id="nl.arjanfrans.mario.model.MovingActor" name="nl.arjanfrans.mario.model.MovingActor">
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="327,71,499,112"/>
+<area shape="rect" id="node6" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom.html" title="Inherited class MovingActor. " alt="" coords="327,136,499,177"/>
+<area shape="rect" id="node4" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba.html" title="Goomba represents the Goomba enemies from the original Mario game. " alt="" coords="547,5,719,47"/>
+<area shape="rect" id="node5" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario.html" title="Represents the playable character in the game. " alt="" coords="547,71,719,112"/>
+<area shape="rect" id="node7" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super.html" title="Inherited class that overrides Mushroom methods that represents mario in super state. " alt="" coords="547,136,719,177"/>
+</map>

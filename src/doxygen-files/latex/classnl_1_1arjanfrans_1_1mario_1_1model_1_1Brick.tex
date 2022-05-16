@@ -1,0 +1,246 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Brick Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick}\index{nl.\+arjanfrans.\+mario.\+model.\+Brick@{nl.\+arjanfrans.\+mario.\+model.\+Brick}}
+
+
+This class is the class meant to model the bricks in the game.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Brick\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Brick\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_addfb506d6f243693b69d579b2cedb3ec}{Brick} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float x, float y, String color, boolean bonus, boolean destructable)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a04b6eece7156ca21f139a20809220f17}{act} (float delta)
+\begin{DoxyCompactList}\small\item\em This method updates the actor based on time. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a92e1021bfa260049d650dc962874b19a}{draw} (Batch batch, float parent\+Alpha)
+\begin{DoxyCompactList}\small\item\em This method updates the actor based on time. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aeca0f5bee7ddc1377fd85e60e8341590}{hit} (int mario\+\_\+level)
+\begin{DoxyCompactList}\small\item\em This method models the behaviour when the brick has been hit. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a423a5d8853e99442315e102408f3e0ec}{getX} ()
+\begin{DoxyCompactList}\small\item\em This method gets the x coordinate of the brick. \end{DoxyCompactList}\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_afc049458a63d92b001328afe8714c2f8}{getY} ()
+\begin{DoxyCompactList}\small\item\em This method gets the y coordinate of the brick. \end{DoxyCompactList}\item 
+Array$<$ Actor $>$ \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ab7c75746c482b7e43dc22937cf100624}{get\+Items} ()
+\begin{DoxyCompactList}\small\item\em This method gets items located inside the brick. \end{DoxyCompactList}\item 
+Actor \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aae68460b9c629b1bc3b81bbcdc168554}{pop\+Item} ()
+\begin{DoxyCompactList}\small\item\em This method pops the top item located inside the brick. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_adb38a0e3d30ff07d38ad8d4549642afd}{add\+Item} (Actor item)
+\begin{DoxyCompactList}\small\item\em This method adds an item to the arrat of items located inside the brick. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a29d45291a530d66038ac80b41d3b7da7}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a29d45291a530d66038ac80b41d3b7da7}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a29d45291a530d66038ac80b41d3b7da7}{shatter} ()
+\begin{DoxyCompactList}\small\item\em Shatters the brick into pieces. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a0e80b3217db810a3562ad29e719c569b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a0e80b3217db810a3562ad29e719c569b}} 
+Texture\+Region {\bfseries texture}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a2a317d6a79b1e5d769b3615a8ae9901c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a2a317d6a79b1e5d769b3615a8ae9901c}} 
+Texture\+Region {\bfseries empty\+\_\+texture}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ade3c2d8745901c5f36760c22d29ed504}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ade3c2d8745901c5f36760c22d29ed504}} 
+float {\bfseries state\+Time}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a4be7c1748a61eef89a9c3fa250bd086d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a4be7c1748a61eef89a9c3fa250bd086d}} 
+int {\bfseries hitcount} = 0
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a97ffa6b04b51f21b5c1f49c0f4553cf0}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a97ffa6b04b51f21b5c1f49c0f4553cf0}} 
+int {\bfseries maxhits} = 1
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a1db87783d4ee6d14be257d6f1f274fe9}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a1db87783d4ee6d14be257d6f1f274fe9}} 
+boolean {\bfseries destructable}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ab41704c5f4769eea1a572deb6cc23e50}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ab41704c5f4769eea1a572deb6cc23e50}} 
+Array$<$ Actor $>$ {\bfseries items}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a41b6318887cb6ea970c78fa90a6d951b}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a41b6318887cb6ea970c78fa90a6d951b}} 
+boolean {\bfseries bonus}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ada311ec6c5707737328010f839fc5f8a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ada311ec6c5707737328010f839fc5f8a}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1brick_1_1BrickShatter}{Brick\+Shatter} {\bfseries shatter}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a3ccb1a16df0627a2a15ef1972f950f51}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a3ccb1a16df0627a2a15ef1972f950f51}} 
+static Animation {\bfseries bonus\+\_\+animation}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class is the class meant to model the bricks in the game. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_addfb506d6f243693b69d579b2cedb3ec}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_addfb506d6f243693b69d579b2cedb3ec}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!Brick@{Brick}}
+\index{Brick@{Brick}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{Brick()}{Brick()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Brick.\+Brick (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{String}]{color,  }\item[{boolean}]{bonus,  }\item[{boolean}]{destructable }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick}{Brick}. 
+\begin{DoxyParams}{Parameters}
+{\em world} & -\/ \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} object which defines which game instance the brick exists in. \\
+\hline
+{\em x} & -\/ The initial x coordinate for the brick. \\
+\hline
+{\em y} & -\/ The initial y coordinate for the creature. \\
+\hline
+{\em color} & -\/ a string representing the brick\textquotesingle{}s color. \\
+\hline
+{\em bonus} & -\/ a boolean indicating the existence of a bonus \\
+\hline
+{\em destructable} & -\/ a boolean indicating the ability to destroy a brick \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick}{Brick} 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a04b6eece7156ca21f139a20809220f17}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a04b6eece7156ca21f139a20809220f17}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!act@{act}}
+\index{act@{act}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{act()}{act()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Brick.\+act (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})}
+
+
+
+This method updates the actor based on time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & -\/ Time in seconds since the last frame. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_adb38a0e3d30ff07d38ad8d4549642afd}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_adb38a0e3d30ff07d38ad8d4549642afd}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{add\+Item()}{addItem()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Brick.\+add\+Item (\begin{DoxyParamCaption}\item[{Actor}]{item }\end{DoxyParamCaption})}
+
+
+
+This method adds an item to the arrat of items located inside the brick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & -\/ an Actor object. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a92e1021bfa260049d650dc962874b19a}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a92e1021bfa260049d650dc962874b19a}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!draw@{draw}}
+\index{draw@{draw}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Brick.\+draw (\begin{DoxyParamCaption}\item[{Batch}]{batch,  }\item[{float}]{parent\+Alpha }\end{DoxyParamCaption})}
+
+
+
+This method updates the actor based on time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent\+Alpha} & -\/ The parent alpha, to be multiplied with this actor\textquotesingle{}s alpha, allowing the parent\textquotesingle{}s alpha to affect all children. \\
+\hline
+{\em batch} & -\/ an object used to draw 2D rectangles that reference a texture (region). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ab7c75746c482b7e43dc22937cf100624}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_ab7c75746c482b7e43dc22937cf100624}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!get\+Items@{get\+Items}}
+\index{get\+Items@{get\+Items}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{get\+Items()}{getItems()}}
+{\footnotesize\ttfamily Array$<$Actor$>$ nl.\+arjanfrans.\+mario.\+model.\+Brick.\+get\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets items located inside the brick. 
+
+\begin{DoxyReturn}{Returns}
+an array of Actor objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a423a5d8853e99442315e102408f3e0ec}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_a423a5d8853e99442315e102408f3e0ec}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!getX@{getX}}
+\index{getX@{getX}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Brick.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the x coordinate of the brick. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the y coordinate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_afc049458a63d92b001328afe8714c2f8}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_afc049458a63d92b001328afe8714c2f8}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!getY@{getY}}
+\index{getY@{getY}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Brick.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the y coordinate of the brick. 
+
+\begin{DoxyReturn}{Returns}
+a float representing the y coordinate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aeca0f5bee7ddc1377fd85e60e8341590}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aeca0f5bee7ddc1377fd85e60e8341590}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!hit@{hit}}
+\index{hit@{hit}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{hit()}{hit()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Brick.\+hit (\begin{DoxyParamCaption}\item[{int}]{mario\+\_\+level }\end{DoxyParamCaption})}
+
+
+
+This method models the behaviour when the brick has been hit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mario\+\_\+level} & -\/ an integer indicating the size of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aae68460b9c629b1bc3b81bbcdc168554}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick_aae68460b9c629b1bc3b81bbcdc168554}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}!pop\+Item@{pop\+Item}}
+\index{pop\+Item@{pop\+Item}!nl\+::arjanfrans\+::mario\+::model\+::\+Brick@{nl\+::arjanfrans\+::mario\+::model\+::\+Brick}}
+\subsubsection{\texorpdfstring{pop\+Item()}{popItem()}}
+{\footnotesize\ttfamily Actor nl.\+arjanfrans.\+mario.\+model.\+Brick.\+pop\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method pops the top item located inside the brick. 
+
+\begin{DoxyReturn}{Returns}
+an Actor object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/Brick.\+java\end{DoxyCompactItemize}

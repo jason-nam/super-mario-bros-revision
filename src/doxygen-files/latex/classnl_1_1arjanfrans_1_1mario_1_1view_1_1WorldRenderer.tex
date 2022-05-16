@@ -1,0 +1,169 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer}{}\section{nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer}\index{nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer@{nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer}}
+
+
+Render of world.  
+
+
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_ae3b0ff5bd619324e74a6656c2a380fc1}{World\+Renderer} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a10dcf6ac3ca6c2591648eb560fabb98e}{resize} (int width, int height)
+\begin{DoxyCompactList}\small\item\em Set size of viewport. \end{DoxyCompactList}\item 
+Orthographic\+Camera \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a47406049241a1fef9c68ca9d80db2ee1}{get\+Camera} ()
+\begin{DoxyCompactList}\small\item\em Get camera. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a98341e31f35df9224c43d6a60c4098b4}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a98341e31f35df9224c43d6a60c4098b4}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a98341e31f35df9224c43d6a60c4098b4}{render} ()
+\begin{DoxyCompactList}\small\item\em Rendering world. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a55569f6e8d3f0b9114d7789a6e86fff4}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a55569f6e8d3f0b9114d7789a6e86fff4}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a55569f6e8d3f0b9114d7789a6e86fff4}{dispose} ()
+\begin{DoxyCompactList}\small\item\em Disposing render of world. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Texture \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a43f69b3995ab2dc9c82a7c9f78f58821}{load\+Background} ()
+\begin{DoxyCompactList}\small\item\em Get texture. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a1d8187e70a46eefc5e67a1bec9cfd0cc}{draw\+Background} (Sprite\+Batch batch, float posX, float posY)
+\begin{DoxyCompactList}\small\item\em Set background. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_aa2197e07ffe2c9f88fa4083c204598c3}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_aa2197e07ffe2c9f88fa4083c204598c3}} 
+Orthogonal\+Tiled\+Map\+Renderer {\bfseries renderer}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a7273f89a16b94bf7aa2cf72c803c3398}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a7273f89a16b94bf7aa2cf72c803c3398}} 
+Orthographic\+Camera {\bfseries camera}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a394a96e12b283c2d9b7e65a8f04d6e18}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a394a96e12b283c2d9b7e65a8f04d6e18}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} {\bfseries world}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_aa58f9ae4c8bc74593af23087b8a1b807}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_aa58f9ae4c8bc74593af23087b8a1b807}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} {\bfseries player}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a65bb82b63546ca4248b80fdc96cfa4fb}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a65bb82b63546ca4248b80fdc96cfa4fb}} 
+Texture {\bfseries background\+\_\+image}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_ab7def0a19ac69b6ea641506cd26058a6}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_ab7def0a19ac69b6ea641506cd26058a6}} 
+Stage {\bfseries stage}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a1ccba4143e804a0c98efaf3f7fafae15}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a1ccba4143e804a0c98efaf3f7fafae15}} 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1ParallaxBackground}{Parallax\+Background} {\bfseries parallax\+\_\+bg}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a66cdb6ceed6dc725b346ba0a07ad3bdf}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a66cdb6ceed6dc725b346ba0a07ad3bdf}} 
+Rectangle {\bfseries viewport}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_abcb78ea8c0477db3aa4fd48b651d6bd5}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_abcb78ea8c0477db3aa4fd48b651d6bd5}} 
+static final int {\bfseries V\+I\+R\+T\+U\+A\+L\+\_\+\+W\+I\+D\+TH} = 512
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a9823fdab35ee11e7fce194a0947e4833}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a9823fdab35ee11e7fce194a0947e4833}} 
+static final int {\bfseries V\+I\+R\+T\+U\+A\+L\+\_\+\+H\+E\+I\+G\+HT} = 448
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_afa106e71dbcc30e726ae1d3a211a0397}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_afa106e71dbcc30e726ae1d3a211a0397}} 
+static final float {\bfseries A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO} = (float)V\+I\+R\+T\+U\+A\+L\+\_\+\+W\+I\+D\+TH/(float)V\+I\+R\+T\+U\+A\+L\+\_\+\+H\+E\+I\+G\+HT
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Render of world. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_ae3b0ff5bd619324e74a6656c2a380fc1}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_ae3b0ff5bd619324e74a6656c2a380fc1}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}!World\+Renderer@{World\+Renderer}}
+\index{World\+Renderer@{World\+Renderer}!nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}}
+\subsubsection{\texorpdfstring{World\+Renderer()}{WorldRenderer()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer.\+World\+Renderer (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer}{World\+Renderer} 
+\begin{DoxyParams}{Parameters}
+{\em world} & The world object in which Mario will exist in \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a1d8187e70a46eefc5e67a1bec9cfd0cc}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a1d8187e70a46eefc5e67a1bec9cfd0cc}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}!draw\+Background@{draw\+Background}}
+\index{draw\+Background@{draw\+Background}!nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Background()}{drawBackground()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer.\+draw\+Background (\begin{DoxyParamCaption}\item[{Sprite\+Batch}]{batch,  }\item[{float}]{posX,  }\item[{float}]{posY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Set background. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em batch} & Sprite\+Batch object \\
+\hline
+{\em posX} & coordinate \\
+\hline
+{\em posY} & coordinate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a47406049241a1fef9c68ca9d80db2ee1}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a47406049241a1fef9c68ca9d80db2ee1}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}!get\+Camera@{get\+Camera}}
+\index{get\+Camera@{get\+Camera}!nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Camera()}{getCamera()}}
+{\footnotesize\ttfamily Orthographic\+Camera nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer.\+get\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get camera. 
+
+\begin{DoxyReturn}{Returns}
+camera Orthographic\+Camera object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a43f69b3995ab2dc9c82a7c9f78f58821}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a43f69b3995ab2dc9c82a7c9f78f58821}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}!load\+Background@{load\+Background}}
+\index{load\+Background@{load\+Background}!nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}}
+\subsubsection{\texorpdfstring{load\+Background()}{loadBackground()}}
+{\footnotesize\ttfamily Texture nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Get texture. 
+
+\begin{DoxyReturn}{Returns}
+texture of world 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a10dcf6ac3ca6c2591648eb560fabb98e}\label{classnl_1_1arjanfrans_1_1mario_1_1view_1_1WorldRenderer_a10dcf6ac3ca6c2591648eb560fabb98e}} 
+\index{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}!resize@{resize}}
+\index{resize@{resize}!nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer@{nl\+::arjanfrans\+::mario\+::view\+::\+World\+Renderer}}
+\subsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+view.\+World\+Renderer.\+resize (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Set size of viewport. 
+
+Adjust size of world 
+\begin{DoxyParams}{Parameters}
+{\em width} & of window \\
+\hline
+{\em height} & of window \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/view/\hyperlink{WorldRenderer_8java}{World\+Renderer.\+java}\end{DoxyCompactItemize}

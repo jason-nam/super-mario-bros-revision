@@ -1,0 +1,142 @@
+characters.gif
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+mario_big_jump
+  rotate: false
+  xy: 369, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+mario_big_walking
+  rotate: false
+  xy: 296, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: 1
+mario_big_walking
+  rotate: false
+  xy: 315, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: 2
+mario_big_walking
+  rotate: false
+  xy: 332, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: 3
+mario_big_flagslide
+  rotate: false
+  xy: 387, 16
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: 1
+mario_big_flagslide
+  rotate: false
+  xy: 403, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: 2
+mario_big_crouch
+  rotate: false
+  xy: 17, 61
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+mario_big_idle
+  rotate: false
+  xy: 259, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+mario_mini_walking
+  rotate: false
+  xy: 290, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+mario_mini_walking
+  rotate: false
+  xy: 304, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+mario_mini_walking
+  rotate: false
+  xy: 321, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+mario_mini_flagslide
+  rotate: false
+  xy: 337, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+mario_mini_flagslide
+  rotate: false
+  xy: 353, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+mario_mini_dead
+  rotate: false
+  xy: 483, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mario_mini_jump
+  rotate: false
+  xy: 355, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mario_mini_idle
+  rotate: false
+  xy: 276, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+
+../mario_tileset1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+goomba_walking
+  rotate: false
+  xy: 54, 72
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+goomba_walking
+  rotate: false
+  xy: 72, 72
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+goomba_trampled
+  rotate: false
+  xy: 36, 72
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

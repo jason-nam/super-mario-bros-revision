@@ -1,0 +1,173 @@
+
+../mario_tileset1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+evil_flag
+  rotate: false
+  xy: 90, 108
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+evil_flag
+  rotate: false
+  xy: 108, 108
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+evil_flag
+  rotate: false
+  xy: 126, 108
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+ground_left
+  rotate: false
+  xy: 0, 90
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ground_right
+  rotate: false
+  xy: 36, 90
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ground_center
+  rotate: false
+  xy: 18, 90
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_left
+  rotate: false
+  xy: 36, 18
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+grass_left
+  rotate: false
+  xy: 36, 36
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+grass_left
+  rotate: false
+  xy: 36, 54
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+grass_center
+  rotate: false
+  xy: 54, 18
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+grass_center
+  rotate: false
+  xy: 54, 36
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+grass_center
+  rotate: false
+  xy: 54, 54
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+grass_right
+  rotate: false
+  xy: 72, 18
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+grass_right
+  rotate: false
+  xy: 72, 36
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+grass_right
+  rotate: false
+  xy: 72, 54
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+block_brown
+  rotate: false
+  xy: 72, 90
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+bonus_block
+  rotate: false
+  xy: 18, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+bonus_block
+  rotate: false
+  xy: 36, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+bonus_block
+  rotate: false
+  xy: 54, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 3
+brick_empty
+  rotate: false
+  xy: 72, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+brick
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+brick_shatter
+  rotate: false
+  xy: 379, 11
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+brick_piece
+  rotate: false
+  xy: 1, 1
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+mushroom_super
+  rotate: false
+  xy: 18, 54
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

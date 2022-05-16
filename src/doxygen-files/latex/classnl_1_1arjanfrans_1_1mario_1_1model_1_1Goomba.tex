@@ -1,0 +1,191 @@
+\hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{}\section{nl.\+arjanfrans.\+mario.\+model.\+Goomba Class Reference}
+\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}\index{nl.\+arjanfrans.\+mario.\+model.\+Goomba@{nl.\+arjanfrans.\+mario.\+model.\+Goomba}}
+
+
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} represents the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} enemies from the original \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} game.  
+
+
+
+
+Inheritance diagram for nl.\+arjanfrans.\+mario.\+model.\+Goomba\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nl.\+arjanfrans.\+mario.\+model.\+Goomba\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a71ffe3210dc6f4cfb0ea89ef714d5b2c}{Goomba} (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World} world, float positionX, float positionY)
+\begin{DoxyCompactList}\small\item\em Constructor method. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a36a01fff5535bd6629b4dd03ae452e63}{draw} (Batch batch, float parent\+Alpha)
+\begin{DoxyCompactList}\small\item\em Draws the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} on the G\+UI. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_ab0215022ef047cd9d82a8fd0447f4a38}{act} (float delta)
+\begin{DoxyCompactList}\small\item\em Determines how the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} acts after each discrete time step. \end{DoxyCompactList}\item 
+Animation \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a6d868ec59ecf46f1562a39ffe521e355}{get\+Animation} ()
+\begin{DoxyCompactList}\small\item\em Gets the animation of this \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a0167198d965a03dd35bbbf711962f02c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a0167198d965a03dd35bbbf711962f02c}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a0167198d965a03dd35bbbf711962f02c}{dispose} ()
+\begin{DoxyCompactList}\small\item\em Removes the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} from the world. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a76e5dd07d57bf351793acd2de5a5f901}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a76e5dd07d57bf351793acd2de5a5f901}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a76e5dd07d57bf351793acd2de5a5f901}{dead\+By\+Trample} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} dies by getting trampled. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a494785b906ae8fcaf9057ecbc12ee55d}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a494785b906ae8fcaf9057ecbc12ee55d}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a494785b906ae8fcaf9057ecbc12ee55d}{die\+By\+Falling} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} dies by falling off the map. \end{DoxyCompactList}\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a4582ee22090958c89e08267a2393c46c}{collision\+With\+Creature} ()
+\begin{DoxyCompactList}\small\item\em Determines behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} collides with another creature. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a47885ec93ca549c62176a931a46de7e6}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a47885ec93ca549c62176a931a46de7e6}} 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a47885ec93ca549c62176a931a46de7e6}{collision\+X\+Action} ()
+\begin{DoxyCompactList}\small\item\em Determines behaviour of when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} collides with an object in the X direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a8cc5010ce400234e91ec1c13be0d8421}{max\+\_\+velocity} = 1f
+\item 
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation}{Goomba\+Animation} \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a936ff77c12f392ca3bf555f49b850e9e}{gfx} = new \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation}{Goomba\+Animation}()
+\item 
+Rectangle \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_af4a69ae09f56588a52ee32b7228c21f6}{rect} = new Rectangle()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a307cf941d782f3a0c2734eb56c1165da}{die\+By\+Trample} ()
+\begin{DoxyCompactList}\small\item\em When \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} dies by getting trampled. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} represents the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} enemies from the original \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} game. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a71ffe3210dc6f4cfb0ea89ef714d5b2c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a71ffe3210dc6f4cfb0ea89ef714d5b2c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!Goomba@{Goomba}}
+\index{Goomba@{Goomba}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{Goomba()}{Goomba()}}
+{\footnotesize\ttfamily nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+Goomba (\begin{DoxyParamCaption}\item[{\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1World}{World}}]{world,  }\item[{float}]{positionX,  }\item[{float}]{positionY }\end{DoxyParamCaption})}
+
+
+
+Constructor method. 
+
+Method which initializes an instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} 
+\begin{DoxyParams}{Parameters}
+{\em world} & The world in which the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} will exist in \\
+\hline
+{\em positionX} & x coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} \\
+\hline
+{\em positionY} & y coordinate of the position of the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_ab0215022ef047cd9d82a8fd0447f4a38}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_ab0215022ef047cd9d82a8fd0447f4a38}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!act@{act}}
+\index{act@{act}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{act()}{act()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+act (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})}
+
+
+
+Determines how the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} acts after each discrete time step. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & Float representing the change in time \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a4582ee22090958c89e08267a2393c46c}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a4582ee22090958c89e08267a2393c46c}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!collision\+With\+Creature@{collision\+With\+Creature}}
+\index{collision\+With\+Creature@{collision\+With\+Creature}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{collision\+With\+Creature()}{collisionWithCreature()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+collision\+With\+Creature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Determines behaviour when \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} collides with another creature. 
+
+Checks if this \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} is colliding with any other \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} in the world \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a307cf941d782f3a0c2734eb56c1165da}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a307cf941d782f3a0c2734eb56c1165da}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!die\+By\+Trample@{die\+By\+Trample}}
+\index{die\+By\+Trample@{die\+By\+Trample}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{die\+By\+Trample()}{dieByTrample()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+die\+By\+Trample (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+When \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} dies by getting trampled. 
+
+A \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} will die when getting trampled (\hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario}{Mario} steps on \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba}\textquotesingle{}s head). This results in the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} dying and being removed from the world \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a36a01fff5535bd6629b4dd03ae452e63}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a36a01fff5535bd6629b4dd03ae452e63}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!draw@{draw}}
+\index{draw@{draw}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+draw (\begin{DoxyParamCaption}\item[{Batch}]{batch,  }\item[{float}]{parent\+Alpha }\end{DoxyParamCaption})}
+
+
+
+Draws the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} on the G\+UI. 
+
+Assists lib\+G\+DX in drawing the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} to a specified batch 
+\begin{DoxyParams}{Parameters}
+{\em batch} & The texture region where the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} is being drawn \\
+\hline
+{\em parent\+Alpha} & Not used \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a6d868ec59ecf46f1562a39ffe521e355}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a6d868ec59ecf46f1562a39ffe521e355}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!get\+Animation@{get\+Animation}}
+\index{get\+Animation@{get\+Animation}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{get\+Animation()}{getAnimation()}}
+{\footnotesize\ttfamily Animation nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+get\+Animation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the animation of this \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba}. 
+
+\begin{DoxyReturn}{Returns}
+Animation object representing which animations the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} will play 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a936ff77c12f392ca3bf555f49b850e9e}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a936ff77c12f392ca3bf555f49b850e9e}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!gfx@{gfx}}
+\index{gfx@{gfx}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{gfx}{gfx}}
+{\footnotesize\ttfamily \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation}{Goomba\+Animation} nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+gfx = new \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1graphics_1_1GoombaAnimation}{Goomba\+Animation}()\hspace{0.3cm}{\ttfamily [protected]}}
+
+Animations of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a8cc5010ce400234e91ec1c13be0d8421}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_a8cc5010ce400234e91ec1c13be0d8421}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!max\+\_\+velocity@{max\+\_\+velocity}}
+\index{max\+\_\+velocity@{max\+\_\+velocity}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{max\+\_\+velocity}{max\_velocity}}
+{\footnotesize\ttfamily float nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+max\+\_\+velocity = 1f\hspace{0.3cm}{\ttfamily [protected]}}
+
+Maximum velocity of \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} \mbox{\Hypertarget{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_af4a69ae09f56588a52ee32b7228c21f6}\label{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba_af4a69ae09f56588a52ee32b7228c21f6}} 
+\index{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}!rect@{rect}}
+\index{rect@{rect}!nl\+::arjanfrans\+::mario\+::model\+::\+Goomba@{nl\+::arjanfrans\+::mario\+::model\+::\+Goomba}}
+\subsubsection{\texorpdfstring{rect}{rect}}
+{\footnotesize\ttfamily Rectangle nl.\+arjanfrans.\+mario.\+model.\+Goomba.\+rect = new Rectangle()\hspace{0.3cm}{\ttfamily [protected]}}
+
+Rectangle object surrounding the \hyperlink{classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba}{Goomba} 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+core/src/nl/arjanfrans/mario/model/\hyperlink{Goomba_8java}{Goomba.\+java}\end{DoxyCompactItemize}

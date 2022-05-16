@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Flag.html" title="This flag represents the flag pole at the end of the stage that completes if Mario interacts with it..." alt="" coords="107,34,305,61"/>
+<area shape="rect" id="node3" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Item.html" title="Represents any item in game. " alt="" coords="107,85,305,111"/>
+<area shape="rect" id="node4" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1MovingActor.html" title="Represents a moving actor in the game. " alt="" coords="120,136,292,177"/>
+<area shape="rect" id="node10" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1StaticActor.html" title="Inherited class that represents static actor. " alt="" coords="120,201,292,243"/>
+<area shape="rect" id="node5" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Creature.html" title="This class is the class model to represent any moving actor that is interactive, and not Mario..." alt="" coords="353,71,525,112"/>
+<area shape="rect" id="node8" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mushroom.html" title="Inherited class MovingActor. " alt="" coords="353,136,525,177"/>
+<area shape="rect" id="node6" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Goomba.html" title="Goomba represents the Goomba enemies from the original Mario game. " alt="" coords="573,5,745,47"/>
+<area shape="rect" id="node7" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Mario.html" title="Represents the playable character in the game. " alt="" coords="573,71,745,112"/>
+<area shape="rect" id="node9" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Super.html" title="Inherited class that overrides Mushroom methods that represents mario in super state. " alt="" coords="573,136,745,177"/>
+<area shape="rect" id="node11" href="$classnl_1_1arjanfrans_1_1mario_1_1model_1_1Brick.html" title="This class is the class meant to model the bricks in the game. " alt="" coords="353,201,525,243"/>
+</map>
